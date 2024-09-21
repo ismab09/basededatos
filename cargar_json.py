@@ -71,7 +71,7 @@ def insertar_jugadores_desde_json(ruta_json):
             insertar_jugador(jugador)
 
 # Ejemplo de uso: lectura de un archivo JSON e inserción de jugadores
-ruta_json = 'equipos/arsenal(id1_).json'  # Cambia esta ruta al nombre de tu archivo
+ruta_json = 'equipos/1_arsenal.json'  # Cambia esta ruta al nombre de tu archivo
 insertar_jugadores_desde_json(ruta_json)
 
 # Cerrar la conexión
