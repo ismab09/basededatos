@@ -1,0 +1,8 @@
+modules = ["python-3.12"]
+run = "python cargar_json.py"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "python cargar_json.py"]
