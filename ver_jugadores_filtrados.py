@@ -1,4 +1,4 @@
-from flask import Flask, render_template_string, request, redirect, url_for
+from flask import Flask, render_template_string
 import sqlite3
 
 app = Flask(__name__)
@@ -28,12 +28,23 @@ def generar_html_equipos():
                     Nombre del Equipo: {equipo[1]}<br>
                     Jugadores: {equipo[3]}</p>
                     <img src="{equipo[2]}" style="width: 50px; height: 50px; vertical-align: middle;"><br>
-
-                    <!-- Enlace para seleccionar el equipo y ver el plantel -->
                     <a href="/equipo/{equipo[0]}" style="text-decoration: none; color: blue;">Ver plantel</a>
                 </div>
             </div>
-            """  # Cada equipo ocupará 20% del ancho.
+            """  # Cada equipo ocupará 25% del ancho.
+
+        # Agregar cuadros vacíos si es necesario
+        total_equipos = len(equipos)
+        cuadros_vacios_a_agregar = (4 - total_equipos % 4) % 4  # Cálculo para rellenar la última fila
+
+        for _ in range(cuadros_vacios_a_agregar):
+            equipos_html += """
+            <div style="flex: 1 0 25%; box-sizing: border-box; padding: 10px;">
+                <div style="border: 1px solid transparent; padding: 10px; height: 100px;">
+                    <!-- Cuadro vacío -->
+                </div>
+            </div>
+            """
 
         equipos_html += "</div>"  # Cerrar el contenedor de los equipos.
         return equipos_html
