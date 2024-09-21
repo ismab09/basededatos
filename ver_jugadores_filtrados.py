@@ -22,7 +22,7 @@ def generar_html_equipos():
 
         for equipo in equipos:
             equipos_html += f"""
-            <div style="flex: 1 0 30%; box-sizing: border-box; padding: 10px;">
+            <div style="flex: 1 0 25%; box-sizing: border-box; padding: 10px;">
                 <div style="border: 1px solid #ccc; padding: 10px;">
                     <p>ID del Equipo: {equipo[0]}<br>
                     Nombre del Equipo: {equipo[1]}<br>
@@ -33,7 +33,7 @@ def generar_html_equipos():
                     <a href="/equipo/{equipo[0]}" style="text-decoration: none; color: blue;">Ver plantel</a>
                 </div>
             </div>
-            """  # Cada equipo ocupará 30% del ancho.
+            """  # Cada equipo ocupará 20% del ancho.
 
         equipos_html += "</div>"  # Cerrar el contenedor de los equipos.
         return equipos_html
@@ -71,7 +71,7 @@ def generar_html_jugadores(team_id):
                         <p>ID: {jugador[0]}<br>
                         Overall Rating: {jugador[1]}<br>
                         Nombre: {jugador[2]}<br>
-                        Nacionalidad ID: {str(jugador[3]).zfill(2)}  |  Nacionalidad: {jugador[4]}<br>
+                        Nacionalidad ID: {str(jugador[3]).zfill(2)}  |  Bandera: {jugador[4]}<br>
                         Equipo ID: {equipo_id_formateado}  |  Equipo: {jugador[7]}<br>
                         Posición ID: {position_id_formateado}  |  Posición: {jugador[10]}</p>
 
