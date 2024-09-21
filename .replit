@@ -1,8 +1,12 @@
 modules = ["python-3.12"]
-run = "python cargar_json.py"
+run = "python cosultar_todos_los_jugadores.py"
 
 [nix]
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "python cargar_json.py"]
+run = ["sh", "-c", "python cosultar_todos_los_jugadores.py"]
+
+[[ports]]
+localPort = 8080
+externalPort = 80
