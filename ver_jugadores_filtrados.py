@@ -5,13 +5,27 @@ app = Flask(__name__)
 
 # Conexión a la base de datos
 conn = sqlite3.connect('jugadores.db', check_same_thread=False)
+conn.row_factory = sqlite3.Row
 cursor = conn.cursor()
 
 # Función para verificar si el equipo es Liverpool y aplicar un estilo especial de fondo rojo
-def aplicar_estilo_liverpool(team_name):
+def aplicar_estilo_liverpool(team_name, team_imageUrl):
     if team_name.lower() == 'liverpool':
-        return 'background-color: red; display: inline-block; padding: 5px;'  # Fondo rojo para el escudo del Liverpool
-    return ''  # Si no es Liverpool, no aplicar ningún estilo
+        return 'https://yt3.googleusercontent.com/XMb1CWW_li3OqjDsr6UyHdstbQBBP4wpFqfwBUC31M9Mi0R4pGXc4sQ3FfVzNK1xV-jb12BP=s160-c-k-c0x00ffffff-no-rj' 
+    elif team_name.lower() == 'notting. forest':
+        return 'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F577.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=12eaab8869aa89822e07b67fb388c007'
+    return team_imageUrl  # Si no es Liverpool, no aplicar ningún estilo
+
+def aplicar_estilo_nombre(team_name):
+    if team_name.lower() == 'man utd':
+        return 'Manchester United'
+    elif team_name.lower() == 'spurs':
+        return 'Tottenham Hotspur'
+    elif team_name.lower() == 'notting. forest':
+        return 'Nottingham Forest'
+    elif team_name.lower() == 'newcastle utd':
+        return 'Newcastle United'
+    return team_name
 
 # Función para generar la plantilla HTML con los equipos
 def generar_html_equipos():
@@ -28,20 +42,21 @@ def generar_html_equipos():
 
         for equipo in equipos:
             # Aplicar estilo rojo si el equipo es Liverpool
-            estilo_liverpool = aplicar_estilo_liverpool(equipo[1])
+            estilo_liverpool = aplicar_estilo_liverpool(equipo['team_label'],equipo['team_imageUrl'])
+            estilo_nombre = aplicar_estilo_nombre(equipo['team_label'])
 
             equipos_html += f"""
             <div style="flex: 1 0 25%; box-sizing: border-box; padding: 10px;">
                 <div style="border: 1px solid #ccc; padding: 10px;">
-                    <p>ID del Equipo: {equipo[0]}<br>
-                    Nombre del Equipo: {equipo[1]}<br>
-                    Jugadores: {equipo[3]}</p>
+                    <p>ID del Equipo: {equipo['team_id']}<br>
+                    Nombre del Equipo: {estilo_nombre}<br>
+                    Jugadores: {equipo['total_jugadores']}</p>
                     <!-- Contenedor del escudo con posible fondo rojo -->
-                    <div style="{estilo_liverpool}">
-                        <img src="{equipo[2]}" style="width: 50px; height: 50px; vertical-align: middle;">
+                    <div style="">
+                        <img src="{estilo_liverpool}" style="width: 50px; height: 50px; vertical-align: middle;">
                     </div><br>
                     <!-- Botón de Ver Plantel -->
-                    <a href="/equipo/{equipo[0]}" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; font-family: Arial, sans-serif;">Ver plantel</a>
+                    <a href="/equipo/{equipo['team_id']}" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; font-family: Arial, sans-serif;">Ver plantel</a>
                 </div>
             </div>
             """  # Cada equipo ocupará 25% del ancho.
@@ -84,41 +99,42 @@ def generar_html_jugadores(team_id):
         # Generar el HTML para cada jugador
         for jugador in jugadores:
             # Aplicar zfill solo para mostrar, no para ordenar
-            position_id_formateado = str(jugador[9]).zfill(2)  # Mostrar el ID de posición con dos dígitos
-            equipo_id_formateado = str(jugador[6]).zfill(2)     # Ejemplo para el ID del equipo
+            position_id_formateado = str(jugador['position_id']).zfill(2)  # Mostrar el ID de posición con dos dígitos
+            equipo_id_formateado = str(jugador['team_id']).zfill(2)     # Ejemplo para el ID del equipo
 
             # Obtener el estilo especial si es Liverpool
-            estilo_liverpool = aplicar_estilo_liverpool(jugador[7])  # jugador[7] es el nombre del equipo
+            estilo_liverpool = aplicar_estilo_liverpool(jugador['team_label'],jugador['team_imageUrl'])  # jugador[7] es el nombre del equipo
+            estilo_nombre = aplicar_estilo_nombre(jugador['team_label'])
 
             jugadores_html += f"""
             <div style="flex: 1 0 30%; box-sizing: border-box; padding: 10px;">
                 <div style="display: flex; border: 1px solid #ccc; padding: 10px;">
                     <!-- Primera columna con texto, bandera y escudo -->
                     <div style="flex: 1;">
-                        <p>ID: {jugador[0]}<br>
-                        Overall Rating: {jugador[1]}<br>
-                        Nombre: {jugador[2]}<br>
-                        Nacionalidad ID: {str(jugador[3]).zfill(2)}  |  Nacionalidad: {jugador[4]}<br>
-                        Equipo ID: {equipo_id_formateado}  |  Equipo: {jugador[7]}<br>
-                        Posición ID: {position_id_formateado}  |  Posición: {jugador[10]}</p>
+                        <p>ID: {jugador['id']}<br>
+                        Overall Rating: {jugador['overallRating']}<br>
+                        Nombre: {jugador['name']}<br>
+                        Nacionalidad ID: {str(jugador['nationality_id']).zfill(2)}  |  Bandera: {jugador['nationality_label']}<br>
+                        Equipo ID: {equipo_id_formateado}  |  Equipo: {estilo_nombre}<br>
+                        Posición ID: {position_id_formateado}  |  Posición: {jugador['position_shortLabel']}</p>
 
                         <div style="display: inline-flex; align-items: center;">
                             <span style="margin-right: 5px;">Nacionalidad:</span>
-                            <img src="{jugador[5]}" style="width: 20px; height: 20px; vertical-align: middle;">
+                            <img src="{jugador['nationality_imageUrl']}" style="width: 20px; height: 20px; vertical-align: middle;">
                         </div>
                         <br>
                         <div style="display: inline-flex; align-items: center;">
                             <span style="margin-right: 5px;">Escudo del equipo:</span>
                             <!-- Contenedor del escudo con posible fondo rojo -->
-                            <div style="{estilo_liverpool}">
-                                <img src="{jugador[8]}" style="width: 30px; height: 30px; vertical-align: middle;">
+                            <div style="">
+                                <img src="{estilo_liverpool}" style="width: 30px; height: 30px; vertical-align: middle;">
                             </div>
                         </div>
                     </div>
 
                     <!-- Segunda columna con la imagen del jugador -->
                     <div style="flex: 0 0 120px; display: flex; justify-content: center; align-items: center;">
-                        <img src="{jugador[11]}" style="width: 100px; height: 100px;">
+                        <img src="{jugador['avatarUrl']}" style="width: 100px; height: 100px;">
                     </div>
                 </div>
             </div>
