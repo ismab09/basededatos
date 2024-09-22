@@ -7,6 +7,12 @@ app = Flask(__name__)
 conn = sqlite3.connect('jugadores.db', check_same_thread=False)
 cursor = conn.cursor()
 
+# Función para verificar si el equipo es Liverpool y aplicar un estilo especial de fondo rojo
+def aplicar_estilo_liverpool(team_name):
+    if team_name.lower() == 'liverpool':
+        return 'background-color: red; display: inline-block; padding: 5px;'  # Fondo rojo para el escudo del Liverpool
+    return ''  # Si no es Liverpool, no aplicar ningún estilo
+
 # Función para generar la plantilla HTML con los equipos
 def generar_html_equipos():
     # Ejecutar una consulta SQL para contar cuántos jugadores hay por equipo
@@ -21,14 +27,21 @@ def generar_html_equipos():
         """  # Contenedor para mostrar los equipos
 
         for equipo in equipos:
+            # Aplicar estilo rojo si el equipo es Liverpool
+            estilo_liverpool = aplicar_estilo_liverpool(equipo[1])
+
             equipos_html += f"""
             <div style="flex: 1 0 25%; box-sizing: border-box; padding: 10px;">
                 <div style="border: 1px solid #ccc; padding: 10px;">
                     <p>ID del Equipo: {equipo[0]}<br>
                     Nombre del Equipo: {equipo[1]}<br>
                     Jugadores: {equipo[3]}</p>
-                    <img src="{equipo[2]}" style="width: 50px; height: 50px; vertical-align: middle;"><br>
-                    <a href="/equipo/{equipo[0]}" style="text-decoration: none; color: blue;">Ver plantel</a>
+                    <!-- Contenedor del escudo con posible fondo rojo -->
+                    <div style="{estilo_liverpool}">
+                        <img src="{equipo[2]}" style="width: 50px; height: 50px; vertical-align: middle;">
+                    </div><br>
+                    <!-- Botón de Ver Plantel -->
+                    <a href="/equipo/{equipo[0]}" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; font-family: Arial, sans-serif;">Ver plantel</a>
                 </div>
             </div>
             """  # Cada equipo ocupará 25% del ancho.
@@ -74,6 +87,9 @@ def generar_html_jugadores(team_id):
             position_id_formateado = str(jugador[9]).zfill(2)  # Mostrar el ID de posición con dos dígitos
             equipo_id_formateado = str(jugador[6]).zfill(2)     # Ejemplo para el ID del equipo
 
+            # Obtener el estilo especial si es Liverpool
+            estilo_liverpool = aplicar_estilo_liverpool(jugador[7])  # jugador[7] es el nombre del equipo
+
             jugadores_html += f"""
             <div style="flex: 1 0 30%; box-sizing: border-box; padding: 10px;">
                 <div style="display: flex; border: 1px solid #ccc; padding: 10px;">
@@ -82,7 +98,7 @@ def generar_html_jugadores(team_id):
                         <p>ID: {jugador[0]}<br>
                         Overall Rating: {jugador[1]}<br>
                         Nombre: {jugador[2]}<br>
-                        Nacionalidad ID: {str(jugador[3]).zfill(2)}  |  Bandera: {jugador[4]}<br>
+                        Nacionalidad ID: {str(jugador[3]).zfill(2)}  |  Nacionalidad: {jugador[4]}<br>
                         Equipo ID: {equipo_id_formateado}  |  Equipo: {jugador[7]}<br>
                         Posición ID: {position_id_formateado}  |  Posición: {jugador[10]}</p>
 
@@ -93,7 +109,10 @@ def generar_html_jugadores(team_id):
                         <br>
                         <div style="display: inline-flex; align-items: center;">
                             <span style="margin-right: 5px;">Escudo del equipo:</span>
-                            <img src="{jugador[8]}" style="width: 30px; height: 30px; vertical-align: middle;">
+                            <!-- Contenedor del escudo con posible fondo rojo -->
+                            <div style="{estilo_liverpool}">
+                                <img src="{jugador[8]}" style="width: 30px; height: 30px; vertical-align: middle;">
+                            </div>
                         </div>
                     </div>
 
@@ -146,9 +165,10 @@ def mostrar_jugadores(team_id):
         <title>Plantel</title>
     </head>
     <body>
+        <!-- Botón de regreso con flecha curva -->
+        <a href="/" style="display: inline-block; padding: 10px 20px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px; font-family: Arial, sans-serif;">↩ Volver a la lista de equipos</a>
+        <br><br>
         {jugadores_html}
-        <br>
-        <a href="/" style="text-decoration: none; color: blue;">Volver a la lista de equipos</a>
     </body>
     </html>
     """

@@ -1,11 +1,11 @@
 modules = ["python-3.12"]
-run = "pip install pysqlite3"
+run = "python ver_jugadores_filtrados.py"
 
 [nix]
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "pip install pysqlite3"]
+run = ["sh", "-c", "python ver_jugadores_filtrados.py"]
 
 [[ports]]
 localPort = 8080
