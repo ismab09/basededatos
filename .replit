@@ -1,11 +1,11 @@
 modules = ["python-3.12"]
-run = "python ver_jugadores_filtrados.py"
+run = "python main.py"
 
 [nix]
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "python ver_jugadores_filtrados.py"]
+run = ["sh", "-c", "python main.py"]
 
 [[ports]]
 localPort = 8080

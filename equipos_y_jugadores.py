@@ -30,9 +30,18 @@ def aplicar_estilo_nombre(team_name):
     return team_name
 
 # Función para generar la plantilla HTML con los equipos
-def generar_html_equipos():
-    # Ejecutar una consulta SQL para contar cuántos jugadores hay por equipo
-    cursor.execute('SELECT team_id, team_label, team_imageUrl, COUNT(*) as total_jugadores FROM players GROUP BY team_id, team_label, team_imageUrl')
+def generar_html_equipos(team_country=None):
+    # Si se proporciona team_country, filtrar los equipos por país
+    query = 'SELECT team_id, team_label, team_imageUrl, COUNT(*) as total_jugadores FROM players'
+    params = []
+
+    if team_country:
+        query += ' WHERE team_country = ?'
+        params.append(team_country)
+
+    query += ' GROUP BY team_id, team_label, team_imageUrl'
+
+    cursor.execute(query, params)
     equipos = cursor.fetchall()
 
     # Verificar si hay equipos en la base de datos
@@ -44,7 +53,7 @@ def generar_html_equipos():
 
         for equipo in equipos:
             # Aplicar estilo rojo si el equipo es Liverpool
-            estilo_liverpool = aplicar_estilo_liverpool(equipo['team_label'],equipo['team_imageUrl'])
+            estilo_liverpool = aplicar_estilo_liverpool(equipo['team_label'], equipo['team_imageUrl'])
             estilo_nombre = aplicar_estilo_nombre(equipo['team_label'])
 
             equipos_html += f"""
@@ -53,11 +62,9 @@ def generar_html_equipos():
                     <p>ID del Equipo: {equipo['team_id']}<br>
                     Nombre del Equipo: {estilo_nombre}<br>
                     Jugadores: {equipo['total_jugadores']}</p>
-                    <!-- Contenedor del escudo con posible fondo rojo -->
-                    <div style="">
+                    <div>
                         <img src="{estilo_liverpool}" style="width: 50px; height: 50px; vertical-align: middle;">
                     </div><br>
-                    <!-- Botón de Ver Plantel -->
                     <a href="/equipo/{equipo['team_id']}" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; font-family: Arial, sans-serif;">Ver plantel</a>
                 </div>
             </div>
@@ -80,6 +87,7 @@ def generar_html_equipos():
         return equipos_html
     else:
         return "<p>No hay equipos en la base de datos.</p>"
+
 
 # Función para generar la plantilla HTML con los jugadores de un equipo
 def generar_html_jugadores(team_id):
