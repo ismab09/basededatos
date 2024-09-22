@@ -11,7 +11,7 @@ cursor = conn.cursor()
 # Función para verificar si el equipo es Liverpool y aplicar un estilo especial de fondo rojo
 def aplicar_estilo_liverpool(team_name, team_imageUrl):
     if team_name.lower() == 'liverpool':
-        return 'https://yt3.googleusercontent.com/XMb1CWW_li3OqjDsr6UyHdstbQBBP4wpFqfwBUC31M9Mi0R4pGXc4sQ3FfVzNK1xV-jb12BP=s160-c-k-c0x00ffffff-no-rj' 
+        return 'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F18.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=84ded2da372fccd6155ac95ab4679cc5' 
     elif team_name.lower() == 'notting. forest':
         return 'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F577.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=12eaab8869aa89822e07b67fb388c007'
     return team_imageUrl  # Si no es Liverpool, no aplicar ningún estilo
@@ -155,40 +155,103 @@ def generar_html_jugadores(team_id):
     else:
         return "<p>No hay jugadores en este equipo.</p>"
 
-# Ruta para mostrar la lista de equipos
-@app.route('/')
-def mostrar_equipos():
-    equipos_html = generar_html_equipos()
+
+def paginaEstilo(titulo, body):
     html_template = f"""
     <html>
     <head>
-        <title>Equipos</title>
+        <title>{titulo}</title>
+        <style>
+            /* Estilos predeterminados */
+            body {{
+                font-family: Arial, sans-serif;
+                background-color: #f5f5f5;
+                color: #333;
+            }}
+            .equipo-container {{
+                border: 1px solid #ccc;
+                padding: 10px;
+                margin: 10px;
+            }}
+            .dark-mode {{
+                background-color: #121212;
+                color: #e0e0e0;
+            }}
+            .dark-mode .equipo-container {{
+                border-color: #444;
+            }}
+            .toggle-button {{
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                cursor: pointer;
+                font-size: 16px;
+            }}
+        </style>
     </head>
     <body>
-        {equipos_html}
+
+        <button class="toggle-button" onclick="toggleMode()">Modo Oscuro</button>
+
+        {body}
+
+        <script>
+            // Función para alternar entre modo claro y oscuro
+            function toggleMode() {{
+                const body = document.body;
+                body.classList.toggle('dark-mode');
+
+                // Cambiar el texto del botón dependiendo del modo
+                const button = document.querySelector('.toggle-button');
+                if (body.classList.contains('dark-mode')) {{
+                    button.textContent = 'Modo Claro';
+                }} else {{
+                    button.textContent = 'Modo Oscuro';
+                }}
+
+                // Guardar el estado en localStorage
+                localStorage.setItem('dark-mode', body.classList.contains('dark-mode'));
+            }}
+
+            // Verificar el estado al cargar la página
+            window.onload = function() {{
+                const darkMode = localStorage.getItem('dark-mode') === 'true';
+                if (darkMode) {{
+                    document.body.classList.add('dark-mode');
+                    document.querySelector('.toggle-button').textContent = 'Modo Claro';
+                }}
+            }};
+        </script>
     </body>
     </html>
     """
-    return render_template_string(html_template)
+    return html_template
+
+# Ruta para mostrar la lista de equipos
+@app.route('/')
+
+def mostrar_equipos():
+    equipos_html = generar_html_equipos()
+    html = paginaEstilo(titulo="Lista de Equipos", body=equipos_html)
+    return render_template_string(html)
+
+
 
 # Ruta para mostrar los jugadores de un equipo específico
 @app.route('/equipo/<team_id>')
 def mostrar_jugadores(team_id):
     jugadores_html = generar_html_jugadores(team_id)
-    html_template = f"""
-    <html>
-    <head>
-        <title>Plantel</title>
-    </head>
-    <body>
+    html = paginaEstilo(titulo="Plantel del Equipo", body=f"""
         <!-- Botón de regreso con flecha curva -->
         <a href="/" style="display: inline-block; padding: 10px 20px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px; font-family: Arial, sans-serif;">↩ Volver a la lista de equipos</a>
         <br><br>
         {jugadores_html}
-    </body>
-    </html>
-    """
-    return render_template_string(html_template)
+    """)
+    return render_template_string(html)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
