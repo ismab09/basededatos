@@ -14,6 +14,8 @@ def aplicar_estilo_liverpool(team_name, team_imageUrl):
         return 'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F18.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=84ded2da372fccd6155ac95ab4679cc5' 
     elif team_name.lower() == 'notting. forest':
         return 'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F577.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=12eaab8869aa89822e07b67fb388c007'
+    elif team_name.lower() == 'spurs':
+        return 'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F164%2F202.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=3f0776081565e0c0eef9cb649cc263cd'
     return team_imageUrl  # Si no es Liverpool, no aplicar ningún estilo
 
 def aplicar_estilo_nombre(team_name):
@@ -114,7 +116,7 @@ def generar_html_jugadores(team_id):
                         <p>ID: {jugador['id']}<br>
                         Overall Rating: {jugador['overallRating']}<br>
                         Nombre: {jugador['name']}<br>
-                        Nacionalidad ID: {str(jugador['nationality_id']).zfill(2)}  |  Bandera: {jugador['nationality_label']}<br>
+                        Nacionalidad ID: {str(jugador['nationality_id']).zfill(2)}  |  País: {jugador['nationality_label']}<br>
                         Equipo ID: {equipo_id_formateado}  |  Equipo: {estilo_nombre}<br>
                         Posición ID: {position_id_formateado}  |  Posición: {jugador['position_shortLabel']}</p>
 

@@ -1,0 +1,5375 @@
+{
+  "items": [
+    {
+      "id": 192563,
+      "rank": 320,
+      "overallRating": 82,
+      "firstName": "Bernd",
+      "lastName": "Leno",
+      "commonName": null,
+      "birthdate": "03/04/1992 00:00",
+      "height": 189,
+      "skillMoves": 1,
+      "weakFootAbility": 3,
+      "preferredFoot": 1,
+      "leagueName": "Premier League",
+      "weight": 83,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p192563.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/192563.png?width=250",
+      "alternatePositions": null,
+      "playerAbilities": [
+        {
+          "id": "trait2_2",
+          "label": "Achique 1 vs. 1",
+          "description": "Atajadas por reflejo únicas, detección de tiros cercanos, salida más rápida",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/4wwnzFkg1zLTAc4QSsXiWO/5fa897cf739a93bddf3556e2323f9b8b/1v1_Close_Down.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 21,
+        "label": "Alemania",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/1A8XMv08PSnZMzpSS5oNIF/47eae37fd5132755d6e36382e6122b1c/f_21.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "0",
+        "shortLabel": "PO",
+        "label": "Portero/a",
+        "positionType": {
+          "id": "defense",
+          "name": "Defensa"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 54,
+          "diff": -1
+        },
+        "agility": {
+          "value": 51,
+          "diff": -1
+        },
+        "jumping": {
+          "value": 70,
+          "diff": -1
+        },
+        "stamina": {
+          "value": 44,
+          "diff": 0
+        },
+        "strength": {
+          "value": 70,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 28,
+          "diff": 0
+        },
+        "balance": {
+          "value": 44,
+          "diff": 0
+        },
+        "ballControl": {
+          "value": 35,
+          "diff": 0
+        },
+        "composure": {
+          "value": 63,
+          "diff": 0
+        },
+        "crossing": {
+          "value": 9,
+          "diff": 0
+        },
+        "curve": {
+          "value": 9,
+          "diff": 0
+        },
+        "def": {
+          "value": 53,
+          "diff": -1
+        },
+        "defensiveAwareness": {
+          "value": 27,
+          "diff": 0
+        },
+        "dri": {
+          "value": 84,
+          "diff": 1
+        },
+        "dribbling": {
+          "value": 16,
+          "diff": 0
+        },
+        "finishing": {
+          "value": 9,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 8,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 83,
+          "diff": 1
+        },
+        "gkHandling": {
+          "value": 79,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 76,
+          "diff": 3
+        },
+        "gkPositioning": {
+          "value": 82,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 84,
+          "diff": 1
+        },
+        "headingAccuracy": {
+          "value": 13,
+          "diff": 0
+        },
+        "interceptions": {
+          "value": 25,
+          "diff": 0
+        },
+        "longPassing": {
+          "value": 48,
+          "diff": 0
+        },
+        "longShots": {
+          "value": 14,
+          "diff": 0
+        },
+        "pac": {
+          "value": 83,
+          "diff": 1
+        },
+        "pas": {
+          "value": 76,
+          "diff": 3
+        },
+        "penalties": {
+          "value": 23,
+          "diff": 0
+        },
+        "phy": {
+          "value": 82,
+          "diff": 0
+        },
+        "positioning": {
+          "value": 7,
+          "diff": 0
+        },
+        "reactions": {
+          "value": 75,
+          "diff": 0
+        },
+        "sho": {
+          "value": 79,
+          "diff": 0
+        },
+        "shortPassing": {
+          "value": 50,
+          "diff": 0
+        },
+        "shotPower": {
+          "value": 57,
+          "diff": 2
+        },
+        "slidingTackle": {
+          "value": 18,
+          "diff": 0
+        },
+        "sprintSpeed": {
+          "value": 51,
+          "diff": -1
+        },
+        "standingTackle": {
+          "value": 15,
+          "diff": 0
+        },
+        "vision": {
+          "value": 53,
+          "diff": -5
+        },
+        "volleys": {
+          "value": 10,
+          "diff": 0
+        }
+      }
+    },
+    {
+      "id": 224221,
+      "rank": 575,
+      "overallRating": 80,
+      "firstName": "Joachim",
+      "lastName": "Andersen",
+      "commonName": null,
+      "birthdate": "5/31/1996 12:00:00 AM",
+      "height": 192,
+      "skillMoves": 2,
+      "weakFootAbility": 4,
+      "preferredFoot": 1,
+      "leagueName": "Premier League",
+      "weight": 90,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p224221.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/224221.png?width=265",
+      "alternatePositions": null,
+      "playerAbilities": [
+        {
+          "id": "trait1_128",
+          "label": "Pase largo",
+          "description": "Pases filtrados elevados y bombeados más precisos y rápidos",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/7jwRDD4zkOsqRpc821t73d/16d46d57a5dfc7dd5dd5f8de0fd26a99/Long_Ball_Pass.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        },
+        {
+          "id": "trait1_32768",
+          "label": "Agresivo",
+          "description": "Más fuerza en las entradas físicas",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/7euMJ2jVypFrFPQesWuGGm/14019168b12faac1584a2920d5c2d5d9/Bruiser.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 13,
+        "label": "Dinamarca",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/W41LohXCFJWoEhvtE1Lva/4b6c673873626d7dd28de8fbfe8f7127/f_13.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "5",
+        "shortLabel": "DFC",
+        "label": "Defensa central",
+        "positionType": {
+          "id": "defense",
+          "name": "Defensa"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 49,
+          "diff": -1
+        },
+        "agility": {
+          "value": 47,
+          "diff": 0
+        },
+        "jumping": {
+          "value": 81,
+          "diff": 0
+        },
+        "stamina": {
+          "value": 75,
+          "diff": 5
+        },
+        "strength": {
+          "value": 87,
+          "diff": 1
+        },
+        "aggression": {
+          "value": 86,
+          "diff": 4
+        },
+        "balance": {
+          "value": 50,
+          "diff": 0
+        },
+        "ballControl": {
+          "value": 70,
+          "diff": -5
+        },
+        "composure": {
+          "value": 78,
+          "diff": 1
+        },
+        "crossing": {
+          "value": 54,
+          "diff": 5
+        },
+        "curve": {
+          "value": 67,
+          "diff": 3
+        },
+        "def": {
+          "value": 79,
+          "diff": 1
+        },
+        "defensiveAwareness": {
+          "value": 80,
+          "diff": 2
+        },
+        "dri": {
+          "value": 66,
+          "diff": 0
+        },
+        "dribbling": {
+          "value": 67,
+          "diff": 3
+        },
+        "finishing": {
+          "value": 51,
+          "diff": 11
+        },
+        "freeKickAccuracy": {
+          "value": 56,
+          "diff": 4
+        },
+        "gkDiving": {
+          "value": 13,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 7,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 9,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 15,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 14,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 78,
+          "diff": 1
+        },
+        "interceptions": {
+          "value": 80,
+          "diff": 2
+        },
+        "longPassing": {
+          "value": 87,
+          "diff": 0
+        },
+        "longShots": {
+          "value": 58,
+          "diff": 5
+        },
+        "pac": {
+          "value": 52,
+          "diff": -1
+        },
+        "pas": {
+          "value": 72,
+          "diff": 2
+        },
+        "penalties": {
+          "value": 44,
+          "diff": 0
+        },
+        "phy": {
+          "value": 84,
+          "diff": 3
+        },
+        "positioning": {
+          "value": 45,
+          "diff": 0
+        },
+        "reactions": {
+          "value": 80,
+          "diff": 2
+        },
+        "sho": {
+          "value": 57,
+          "diff": 7
+        },
+        "shortPassing": {
+          "value": 80,
+          "diff": 1
+        },
+        "shotPower": {
+          "value": 75,
+          "diff": 2
+        },
+        "slidingTackle": {
+          "value": 78,
+          "diff": 1
+        },
+        "sprintSpeed": {
+          "value": 54,
+          "diff": -1
+        },
+        "standingTackle": {
+          "value": 79,
+          "diff": 1
+        },
+        "vision": {
+          "value": 69,
+          "diff": 2
+        },
+        "volleys": {
+          "value": 55,
+          "diff": 12
+        }
+      }
+    },
+    {
+      "id": 229348,
+      "rank": 734,
+      "overallRating": 79,
+      "firstName": "Antonee",
+      "lastName": "Robinson",
+      "commonName": null,
+      "birthdate": "08/08/1997 00:00",
+      "height": 182,
+      "skillMoves": 3,
+      "weakFootAbility": 3,
+      "preferredFoot": 2,
+      "leagueName": "Premier League",
+      "weight": 70,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p229348.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/229348.png?width=265",
+      "alternatePositions": null,
+      "playerAbilities": [
+        {
+          "id": "trait1_128",
+          "label": "Pase largo",
+          "description": "Pases filtrados elevados y bombeados más precisos y rápidos",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/7jwRDD4zkOsqRpc821t73d/16d46d57a5dfc7dd5dd5f8de0fd26a99/Long_Ball_Pass.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        },
+        {
+          "id": "trait1_512",
+          "label": "Pase con efecto",
+          "description": "Centros precisos y rápidos, con más curva",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/FfTP29PWrRWZjEaiCCVoa/a1b345e4ae7023ed78b1efd68d28f392/Whipped_Pass.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        },
+        {
+          "id": "trait1_1024",
+          "label": "Encarador",
+          "description": "Encare con sprint más rápido, mejor velocidad de transición",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/7lHjpOBSghE6Ywt1jgVv1C/21f9914d00f073d79d4b46cac71b9087/Jockey.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        },
+        {
+          "id": "trait1_131072",
+          "label": "Veloz",
+          "description": "Más velocidad de sprint al regatear, menos errores al adelantar el balón",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/1aGsvwKyIFlRG1eoJSS0Ot/a4d3d661ff962795a632fe86439d2146/Rapid.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 95,
+        "label": "Estados Unidos",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/5cf40Cv4RRYt6T3ArGJOR1/aec9f45e482b9e325eab179be6a66963/f_95.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "7",
+        "shortLabel": "DFI",
+        "label": "Defensa izquierdo/a",
+        "positionType": {
+          "id": "defense",
+          "name": "Defensa"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 87,
+          "diff": 2
+        },
+        "agility": {
+          "value": 79,
+          "diff": 0
+        },
+        "jumping": {
+          "value": 82,
+          "diff": 4
+        },
+        "stamina": {
+          "value": 81,
+          "diff": 2
+        },
+        "strength": {
+          "value": 73,
+          "diff": 1
+        },
+        "aggression": {
+          "value": 83,
+          "diff": 3
+        },
+        "balance": {
+          "value": 71,
+          "diff": 0
+        },
+        "ballControl": {
+          "value": 74,
+          "diff": 1
+        },
+        "composure": {
+          "value": 67,
+          "diff": 0
+        },
+        "crossing": {
+          "value": 79,
+          "diff": 6
+        },
+        "curve": {
+          "value": 80,
+          "diff": 19
+        },
+        "def": {
+          "value": 74,
+          "diff": 4
+        },
+        "defensiveAwareness": {
+          "value": 73,
+          "diff": 7
+        },
+        "dri": {
+          "value": 77,
+          "diff": 1
+        },
+        "dribbling": {
+          "value": 80,
+          "diff": 1
+        },
+        "finishing": {
+          "value": 44,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 39,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 12,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 9,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 15,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 14,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 9,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 63,
+          "diff": 7
+        },
+        "interceptions": {
+          "value": 80,
+          "diff": 7
+        },
+        "longPassing": {
+          "value": 73,
+          "diff": 1
+        },
+        "longShots": {
+          "value": 43,
+          "diff": 0
+        },
+        "pac": {
+          "value": 88,
+          "diff": 1
+        },
+        "pas": {
+          "value": 71,
+          "diff": 3
+        },
+        "penalties": {
+          "value": 45,
+          "diff": 0
+        },
+        "phy": {
+          "value": 77,
+          "diff": 1
+        },
+        "positioning": {
+          "value": 71,
+          "diff": 6
+        },
+        "reactions": {
+          "value": 75,
+          "diff": 2
+        },
+        "sho": {
+          "value": 46,
+          "diff": 1
+        },
+        "shortPassing": {
+          "value": 74,
+          "diff": 2
+        },
+        "shotPower": {
+          "value": 46,
+          "diff": 0
+        },
+        "slidingTackle": {
+          "value": 74,
+          "diff": 2
+        },
+        "sprintSpeed": {
+          "value": 89,
+          "diff": 1
+        },
+        "standingTackle": {
+          "value": 76,
+          "diff": 1
+        },
+        "vision": {
+          "value": 63,
+          "diff": 0
+        },
+        "volleys": {
+          "value": 45,
+          "diff": 0
+        }
+      }
+    },
+    {
+      "id": 208450,
+      "rank": 967,
+      "overallRating": 78,
+      "firstName": "Andreas Hugo",
+      "lastName": "Hoelgebaum Pereira",
+      "commonName": "Andreas Pereira",
+      "birthdate": "01/01/1996 00:00",
+      "height": 177,
+      "skillMoves": 4,
+      "weakFootAbility": 4,
+      "preferredFoot": 1,
+      "leagueName": "Premier League",
+      "weight": 70,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p208450.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/208450.png?width=265",
+      "alternatePositions": [
+        {
+          "id": "14",
+          "label": "Mediocentro",
+          "shortLabel": "MC"
+        }
+      ],
+      "playerAbilities": [
+        {
+          "id": "trait1_8",
+          "label": "Balón parado",
+          "description": "Tácticas fijas más rápidas y precisas, con vista de trayectoria más larga",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/1razu2wcM3XA82VvB7NyUm/eec6b07080e49d6bf2d7a7951a22375f/Dead_Ball.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        },
+        {
+          "id": "trait1_65536",
+          "label": "Técnico",
+          "description": "Sprint controlado con más velocidad, giros abiertos al regatear más precisos",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/5Esx7NK4YBU44O4bo07rvb/69ca9417da7fd07905f6c6956ad93f6d/Technical.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        },
+        {
+          "id": "trait1_262144",
+          "label": "Elegante",
+          "description": "Pases/tiros con clase más precisos, animaciones elegantes contextuales",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/4q0QkDX0CLgDyBXWBO8lEn/7d727e85de9ee27d3aece799571aa982/Flair.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 54,
+        "label": "Brasil",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3Rwp4RzPbtNP3FHh21UXAG/1d1cf1b849dfaeb232744c8c725d93b6/f_54.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "18",
+        "shortLabel": "MCO",
+        "label": "Mediocentro of.",
+        "positionType": {
+          "id": "midfielder",
+          "name": "Mediocampista"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 75,
+          "diff": -2
+        },
+        "agility": {
+          "value": 77,
+          "diff": 0
+        },
+        "jumping": {
+          "value": 69,
+          "diff": -1
+        },
+        "stamina": {
+          "value": 77,
+          "diff": -1
+        },
+        "strength": {
+          "value": 60,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 81,
+          "diff": 1
+        },
+        "balance": {
+          "value": 76,
+          "diff": -1
+        },
+        "ballControl": {
+          "value": 77,
+          "diff": -1
+        },
+        "composure": {
+          "value": 72,
+          "diff": 1
+        },
+        "crossing": {
+          "value": 81,
+          "diff": -1
+        },
+        "curve": {
+          "value": 85,
+          "diff": 1
+        },
+        "def": {
+          "value": 66,
+          "diff": 0
+        },
+        "defensiveAwareness": {
+          "value": 67,
+          "diff": 0
+        },
+        "dri": {
+          "value": 78,
+          "diff": 0
+        },
+        "dribbling": {
+          "value": 79,
+          "diff": 0
+        },
+        "finishing": {
+          "value": 74,
+          "diff": 4
+        },
+        "freeKickAccuracy": {
+          "value": 81,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 15,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 14,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 7,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 10,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 7,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 56,
+          "diff": 0
+        },
+        "interceptions": {
+          "value": 69,
+          "diff": -1
+        },
+        "longPassing": {
+          "value": 76,
+          "diff": 0
+        },
+        "longShots": {
+          "value": 80,
+          "diff": 1
+        },
+        "pac": {
+          "value": 74,
+          "diff": -2
+        },
+        "pas": {
+          "value": 80,
+          "diff": 2
+        },
+        "penalties": {
+          "value": 75,
+          "diff": 1
+        },
+        "phy": {
+          "value": 69,
+          "diff": 0
+        },
+        "positioning": {
+          "value": 76,
+          "diff": 1
+        },
+        "reactions": {
+          "value": 77,
+          "diff": 2
+        },
+        "sho": {
+          "value": 77,
+          "diff": 2
+        },
+        "shortPassing": {
+          "value": 79,
+          "diff": 3
+        },
+        "shotPower": {
+          "value": 84,
+          "diff": 0
+        },
+        "slidingTackle": {
+          "value": 63,
+          "diff": 0
+        },
+        "sprintSpeed": {
+          "value": 74,
+          "diff": -1
+        },
+        "standingTackle": {
+          "value": 67,
+          "diff": 1
+        },
+        "vision": {
+          "value": 81,
+          "diff": 3
+        },
+        "volleys": {
+          "value": 73,
+          "diff": 1
+        }
+      }
+    },
+    {
+      "id": 222501,
+      "rank": 1214,
+      "overallRating": 77,
+      "firstName": "Timothy",
+      "lastName": "Castagne",
+      "commonName": null,
+      "birthdate": "12/05/1995 00:00",
+      "height": 185,
+      "skillMoves": 3,
+      "weakFootAbility": 3,
+      "preferredFoot": 1,
+      "leagueName": "Premier League",
+      "weight": 80,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p222501.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/222501.png?width=250",
+      "alternatePositions": null,
+      "playerAbilities": [],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 7,
+        "label": "Bélgica",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/285bLwP3RuTmDmniPEqYn8/8fa66478d339a776a696563fcd3e2005/f_7.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "3",
+        "shortLabel": "DFD",
+        "label": "Defensa derecho/a",
+        "positionType": {
+          "id": "defense",
+          "name": "Defensa"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 69,
+          "diff": -2
+        },
+        "agility": {
+          "value": 68,
+          "diff": 0
+        },
+        "jumping": {
+          "value": 73,
+          "diff": -1
+        },
+        "stamina": {
+          "value": 79,
+          "diff": 0
+        },
+        "strength": {
+          "value": 66,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 76,
+          "diff": 1
+        },
+        "balance": {
+          "value": 65,
+          "diff": 0
+        },
+        "ballControl": {
+          "value": 76,
+          "diff": -1
+        },
+        "composure": {
+          "value": 68,
+          "diff": 0
+        },
+        "crossing": {
+          "value": 77,
+          "diff": 0
+        },
+        "curve": {
+          "value": 58,
+          "diff": 0
+        },
+        "def": {
+          "value": 74,
+          "diff": 0
+        },
+        "defensiveAwareness": {
+          "value": 74,
+          "diff": -1
+        },
+        "dri": {
+          "value": 73,
+          "diff": -2
+        },
+        "dribbling": {
+          "value": 74,
+          "diff": -2
+        },
+        "finishing": {
+          "value": 56,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 33,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 14,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 9,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 15,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 10,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 15,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 70,
+          "diff": 1
+        },
+        "interceptions": {
+          "value": 74,
+          "diff": -3
+        },
+        "longPassing": {
+          "value": 70,
+          "diff": 0
+        },
+        "longShots": {
+          "value": 52,
+          "diff": 0
+        },
+        "pac": {
+          "value": 72,
+          "diff": -1
+        },
+        "pas": {
+          "value": 71,
+          "diff": 0
+        },
+        "penalties": {
+          "value": 47,
+          "diff": 0
+        },
+        "phy": {
+          "value": 72,
+          "diff": 1
+        },
+        "positioning": {
+          "value": 76,
+          "diff": 0
+        },
+        "reactions": {
+          "value": 76,
+          "diff": -1
+        },
+        "sho": {
+          "value": 57,
+          "diff": 1
+        },
+        "shortPassing": {
+          "value": 75,
+          "diff": 0
+        },
+        "shotPower": {
+          "value": 65,
+          "diff": 3
+        },
+        "slidingTackle": {
+          "value": 73,
+          "diff": 1
+        },
+        "sprintSpeed": {
+          "value": 74,
+          "diff": -1
+        },
+        "standingTackle": {
+          "value": 75,
+          "diff": 1
+        },
+        "vision": {
+          "value": 71,
+          "diff": 2
+        },
+        "volleys": {
+          "value": 40,
+          "diff": 0
+        }
+      }
+    },
+    {
+      "id": 231633,
+      "rank": 1214,
+      "overallRating": 77,
+      "firstName": "Issa",
+      "lastName": "Diop",
+      "commonName": null,
+      "birthdate": "01/09/1997 00:00",
+      "height": 194,
+      "skillMoves": 2,
+      "weakFootAbility": 3,
+      "preferredFoot": 1,
+      "leagueName": "Premier League",
+      "weight": 92,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p231633.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/231633.png?width=265",
+      "alternatePositions": null,
+      "playerAbilities": [
+        {
+          "id": "trait1_2048",
+          "label": "Bloqueo",
+          "description": "Aumento del alcance y del éxito en los bloqueos",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/2Rlftzr8lqUdI29suCQVWe/43c6c36e8bd5fa26b88478d4354611a2/Block.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        },
+        {
+          "id": "trait1_32768",
+          "label": "Agresivo",
+          "description": "Más fuerza en las entradas físicas",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/7euMJ2jVypFrFPQesWuGGm/14019168b12faac1584a2920d5c2d5d9/Bruiser.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 18,
+        "label": "Francia",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/5Il39kdF0vuuJ1Gc18R7Ww/b982b6f565d2d59fe0dc61e5ca620092/f_18.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "5",
+        "shortLabel": "DFC",
+        "label": "Defensa central",
+        "positionType": {
+          "id": "defense",
+          "name": "Defensa"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 49,
+          "diff": -7
+        },
+        "agility": {
+          "value": 52,
+          "diff": 0
+        },
+        "jumping": {
+          "value": 82,
+          "diff": -2
+        },
+        "stamina": {
+          "value": 67,
+          "diff": 0
+        },
+        "strength": {
+          "value": 87,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 79,
+          "diff": 0
+        },
+        "balance": {
+          "value": 33,
+          "diff": -15
+        },
+        "ballControl": {
+          "value": 59,
+          "diff": -3
+        },
+        "composure": {
+          "value": 65,
+          "diff": -5
+        },
+        "crossing": {
+          "value": 37,
+          "diff": 0
+        },
+        "curve": {
+          "value": 32,
+          "diff": 0
+        },
+        "def": {
+          "value": 77,
+          "diff": -2
+        },
+        "defensiveAwareness": {
+          "value": 77,
+          "diff": -1
+        },
+        "dri": {
+          "value": 55,
+          "diff": -2
+        },
+        "dribbling": {
+          "value": 52,
+          "diff": 0
+        },
+        "finishing": {
+          "value": 30,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 34,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 10,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 7,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 6,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 14,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 9,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 78,
+          "diff": 0
+        },
+        "interceptions": {
+          "value": 78,
+          "diff": -1
+        },
+        "longPassing": {
+          "value": 63,
+          "diff": 0
+        },
+        "longShots": {
+          "value": 31,
+          "diff": 0
+        },
+        "pac": {
+          "value": 57,
+          "diff": -7
+        },
+        "pas": {
+          "value": 53,
+          "diff": 0
+        },
+        "penalties": {
+          "value": 44,
+          "diff": 0
+        },
+        "phy": {
+          "value": 80,
+          "diff": 0
+        },
+        "positioning": {
+          "value": 42,
+          "diff": 0
+        },
+        "reactions": {
+          "value": 71,
+          "diff": -2
+        },
+        "sho": {
+          "value": 37,
+          "diff": 0
+        },
+        "shortPassing": {
+          "value": 68,
+          "diff": 0
+        },
+        "shotPower": {
+          "value": 51,
+          "diff": 0
+        },
+        "slidingTackle": {
+          "value": 76,
+          "diff": -2
+        },
+        "sprintSpeed": {
+          "value": 64,
+          "diff": -6
+        },
+        "standingTackle": {
+          "value": 77,
+          "diff": -2
+        },
+        "vision": {
+          "value": 43,
+          "diff": 0
+        },
+        "volleys": {
+          "value": 48,
+          "diff": 0
+        }
+      }
+    },
+    {
+      "id": 213655,
+      "rank": 1214,
+      "overallRating": 77,
+      "firstName": "Alex",
+      "lastName": "Iwobi",
+      "commonName": null,
+      "birthdate": "05/03/1996 00:00",
+      "height": 185,
+      "skillMoves": 4,
+      "weakFootAbility": 3,
+      "preferredFoot": 1,
+      "leagueName": "Premier League",
+      "weight": 75,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p213655.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/213655.png?width=265",
+      "alternatePositions": [
+        {
+          "id": "16",
+          "label": "Medio izquierdo/a",
+          "shortLabel": "MI"
+        },
+        {
+          "id": "14",
+          "label": "Mediocentro",
+          "shortLabel": "MC"
+        },
+        {
+          "id": "23",
+          "label": "Extremo/a der.",
+          "shortLabel": "ED"
+        }
+      ],
+      "playerAbilities": [
+        {
+          "id": "trait1_65536",
+          "label": "Técnico",
+          "description": "Sprint controlado con más velocidad, giros abiertos al regatear más precisos",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/5Esx7NK4YBU44O4bo07rvb/69ca9417da7fd07905f6c6956ad93f6d/Technical.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        },
+        {
+          "id": "trait1_262144",
+          "label": "Elegante",
+          "description": "Pases/tiros con clase más precisos, animaciones elegantes contextuales",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/4q0QkDX0CLgDyBXWBO8lEn/7d727e85de9ee27d3aece799571aa982/Flair.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        },
+        {
+          "id": "trait1_8388608",
+          "label": "Implacable",
+          "description": "Más recuperación de fatiga en descanso, más contención y presión del equipo",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/2vVuRxgvPNaAuFGqZZ9nDY/3e2505addd5a6b353becdeaf7173d187/Relentless.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 133,
+        "label": "Nigeria",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/295ony5xEfG2G4YAB0W9mW/3a27c0494c7df2afeb1fa42963186f7d/f_133.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "12",
+        "shortLabel": "MD",
+        "label": "Medio derecho/a",
+        "positionType": {
+          "id": "midfielder",
+          "name": "Mediocampista"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 75,
+          "diff": 2
+        },
+        "agility": {
+          "value": 73,
+          "diff": 0
+        },
+        "jumping": {
+          "value": 69,
+          "diff": 2
+        },
+        "stamina": {
+          "value": 90,
+          "diff": 0
+        },
+        "strength": {
+          "value": 74,
+          "diff": 2
+        },
+        "aggression": {
+          "value": 59,
+          "diff": 0
+        },
+        "balance": {
+          "value": 75,
+          "diff": 5
+        },
+        "ballControl": {
+          "value": 78,
+          "diff": 0
+        },
+        "composure": {
+          "value": 71,
+          "diff": -5
+        },
+        "crossing": {
+          "value": 70,
+          "diff": 0
+        },
+        "curve": {
+          "value": 73,
+          "diff": 1
+        },
+        "def": {
+          "value": 56,
+          "diff": 0
+        },
+        "defensiveAwareness": {
+          "value": 52,
+          "diff": 0
+        },
+        "dri": {
+          "value": 80,
+          "diff": 2
+        },
+        "dribbling": {
+          "value": 84,
+          "diff": 3
+        },
+        "finishing": {
+          "value": 60,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 40,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 14,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 7,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 12,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 14,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 11,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 45,
+          "diff": 0
+        },
+        "interceptions": {
+          "value": 59,
+          "diff": 0
+        },
+        "longPassing": {
+          "value": 71,
+          "diff": -3
+        },
+        "longShots": {
+          "value": 65,
+          "diff": 0
+        },
+        "pac": {
+          "value": 75,
+          "diff": 1
+        },
+        "pas": {
+          "value": 72,
+          "diff": -1
+        },
+        "penalties": {
+          "value": 59,
+          "diff": 0
+        },
+        "phy": {
+          "value": 75,
+          "diff": 1
+        },
+        "positioning": {
+          "value": 73,
+          "diff": 0
+        },
+        "reactions": {
+          "value": 75,
+          "diff": 1
+        },
+        "sho": {
+          "value": 65,
+          "diff": 1
+        },
+        "shortPassing": {
+          "value": 77,
+          "diff": 0
+        },
+        "shotPower": {
+          "value": 72,
+          "diff": 0
+        },
+        "slidingTackle": {
+          "value": 50,
+          "diff": 0
+        },
+        "sprintSpeed": {
+          "value": 75,
+          "diff": 0
+        },
+        "standingTackle": {
+          "value": 64,
+          "diff": 2
+        },
+        "vision": {
+          "value": 75,
+          "diff": 0
+        },
+        "volleys": {
+          "value": 80,
+          "diff": 29
+        }
+      }
+    },
+    {
+      "id": 240273,
+      "rank": 1214,
+      "overallRating": 77,
+      "firstName": "Emile",
+      "lastName": "Smith Rowe",
+      "commonName": null,
+      "birthdate": "7/28/2000 12:00:00 AM",
+      "height": 182,
+      "skillMoves": 4,
+      "weakFootAbility": 4,
+      "preferredFoot": 1,
+      "leagueName": "Premier League",
+      "weight": 72,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p240273.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/240273.png?width=265",
+      "alternatePositions": [
+        {
+          "id": "18",
+          "label": "Mediocentro of.",
+          "shortLabel": "MCO"
+        },
+        {
+          "id": "27",
+          "label": "Extremo/a izq.",
+          "shortLabel": "EI"
+        }
+      ],
+      "playerAbilities": [
+        {
+          "id": "trait1_1",
+          "label": "Tiro colocado",
+          "description": "Tiros colocados más rápidos, con más curva y precisión",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/468u1R1p2k1fA6WBHi0OEn/fb9d49ed2a8fb500cd5a184937b96b34/Finesse_Shot.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        },
+        {
+          "id": "trait1_65536",
+          "label": "Técnico",
+          "description": "Sprint controlado con más velocidad, giros abiertos al regatear más precisos",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/5Esx7NK4YBU44O4bo07rvb/69ca9417da7fd07905f6c6956ad93f6d/Technical.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 14,
+        "label": "Inglaterra",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/4BVs0BAE16wJ4ihZS72xv8/5f2bab28b731170d875d4b0dd66b3664/f_14.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "16",
+        "shortLabel": "MI",
+        "label": "Medio izquierdo/a",
+        "positionType": {
+          "id": "midfielder",
+          "name": "Mediocampista"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 76,
+          "diff": 0
+        },
+        "agility": {
+          "value": 78,
+          "diff": -2
+        },
+        "jumping": {
+          "value": 60,
+          "diff": 0
+        },
+        "stamina": {
+          "value": 68,
+          "diff": -4
+        },
+        "strength": {
+          "value": 61,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 52,
+          "diff": 0
+        },
+        "balance": {
+          "value": 75,
+          "diff": 0
+        },
+        "ballControl": {
+          "value": 79,
+          "diff": -2
+        },
+        "composure": {
+          "value": 77,
+          "diff": -1
+        },
+        "crossing": {
+          "value": 74,
+          "diff": 0
+        },
+        "curve": {
+          "value": 72,
+          "diff": 0
+        },
+        "def": {
+          "value": 43,
+          "diff": 11
+        },
+        "defensiveAwareness": {
+          "value": 44,
+          "diff": 7
+        },
+        "dri": {
+          "value": 80,
+          "diff": -1
+        },
+        "dribbling": {
+          "value": 82,
+          "diff": -1
+        },
+        "finishing": {
+          "value": 73,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 58,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 11,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 8,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 14,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 8,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 10,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 36,
+          "diff": 0
+        },
+        "interceptions": {
+          "value": 41,
+          "diff": 13
+        },
+        "longPassing": {
+          "value": 67,
+          "diff": 0
+        },
+        "longShots": {
+          "value": 71,
+          "diff": 0
+        },
+        "pac": {
+          "value": 76,
+          "diff": 0
+        },
+        "pas": {
+          "value": 74,
+          "diff": -1
+        },
+        "penalties": {
+          "value": 64,
+          "diff": 0
+        },
+        "phy": {
+          "value": 61,
+          "diff": -1
+        },
+        "positioning": {
+          "value": 76,
+          "diff": -4
+        },
+        "reactions": {
+          "value": 76,
+          "diff": -2
+        },
+        "sho": {
+          "value": 71,
+          "diff": 0
+        },
+        "shortPassing": {
+          "value": 79,
+          "diff": -1
+        },
+        "shotPower": {
+          "value": 70,
+          "diff": 0
+        },
+        "slidingTackle": {
+          "value": 40,
+          "diff": 9
+        },
+        "sprintSpeed": {
+          "value": 76,
+          "diff": 0
+        },
+        "standingTackle": {
+          "value": 46,
+          "diff": 16
+        },
+        "vision": {
+          "value": 76,
+          "diff": -2
+        },
+        "volleys": {
+          "value": 60,
+          "diff": 0
+        }
+      }
+    },
+    {
+      "id": 241436,
+      "rank": 1520,
+      "overallRating": 76,
+      "firstName": "Calvin",
+      "lastName": "Bassey",
+      "commonName": null,
+      "birthdate": "12/31/1999 12:00:00 AM",
+      "height": 185,
+      "skillMoves": 2,
+      "weakFootAbility": 3,
+      "preferredFoot": 2,
+      "leagueName": "Premier League",
+      "weight": 76,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241436.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/241436.png?width=265",
+      "alternatePositions": null,
+      "playerAbilities": [
+        {
+          "id": "trait1_33554432",
+          "label": "Acrobático",
+          "description": "Realiza voleas con mayor precisión, animaciones de volea acrobáticas",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/2sRRBHcIe0zrDwYaRI2xG3/d02b8c8855de853470897009e030eb5d/Acrobatic.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 133,
+        "label": "Nigeria",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/295ony5xEfG2G4YAB0W9mW/3a27c0494c7df2afeb1fa42963186f7d/f_133.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "5",
+        "shortLabel": "DFC",
+        "label": "Defensa central",
+        "positionType": {
+          "id": "defense",
+          "name": "Defensa"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 76,
+          "diff": -2
+        },
+        "agility": {
+          "value": 67,
+          "diff": -3
+        },
+        "jumping": {
+          "value": 83,
+          "diff": 0
+        },
+        "stamina": {
+          "value": 89,
+          "diff": 0
+        },
+        "strength": {
+          "value": 88,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 79,
+          "diff": 3
+        },
+        "balance": {
+          "value": 70,
+          "diff": -8
+        },
+        "ballControl": {
+          "value": 66,
+          "diff": 2
+        },
+        "composure": {
+          "value": 62,
+          "diff": 0
+        },
+        "crossing": {
+          "value": 68,
+          "diff": 0
+        },
+        "curve": {
+          "value": 63,
+          "diff": 0
+        },
+        "def": {
+          "value": 74,
+          "diff": 1
+        },
+        "defensiveAwareness": {
+          "value": 72,
+          "diff": 2
+        },
+        "dri": {
+          "value": 67,
+          "diff": 1
+        },
+        "dribbling": {
+          "value": 67,
+          "diff": 1
+        },
+        "finishing": {
+          "value": 36,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 37,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 9,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 7,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 5,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 8,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 7,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 74,
+          "diff": 2
+        },
+        "interceptions": {
+          "value": 72,
+          "diff": 1
+        },
+        "longPassing": {
+          "value": 60,
+          "diff": 0
+        },
+        "longShots": {
+          "value": 36,
+          "diff": 0
+        },
+        "pac": {
+          "value": 82,
+          "diff": -1
+        },
+        "pas": {
+          "value": 62,
+          "diff": 0
+        },
+        "penalties": {
+          "value": 44,
+          "diff": 0
+        },
+        "phy": {
+          "value": 86,
+          "diff": 0
+        },
+        "positioning": {
+          "value": 57,
+          "diff": 0
+        },
+        "reactions": {
+          "value": 71,
+          "diff": 5
+        },
+        "sho": {
+          "value": 44,
+          "diff": 0
+        },
+        "shortPassing": {
+          "value": 67,
+          "diff": 1
+        },
+        "shotPower": {
+          "value": 65,
+          "diff": 1
+        },
+        "slidingTackle": {
+          "value": 74,
+          "diff": 1
+        },
+        "sprintSpeed": {
+          "value": 86,
+          "diff": -1
+        },
+        "standingTackle": {
+          "value": 78,
+          "diff": 2
+        },
+        "vision": {
+          "value": 55,
+          "diff": 0
+        },
+        "volleys": {
+          "value": 49,
+          "diff": 0
+        }
+      }
+    },
+    {
+      "id": 228092,
+      "rank": 1520,
+      "overallRating": 76,
+      "firstName": "Sander",
+      "lastName": "Berge",
+      "commonName": null,
+      "birthdate": "2/18/1998 12:00:00 AM",
+      "height": 195,
+      "skillMoves": 3,
+      "weakFootAbility": 3,
+      "preferredFoot": 1,
+      "leagueName": "Premier League",
+      "weight": 96,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p228092.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/228092.png?width=265",
+      "alternatePositions": [
+        {
+          "id": "10",
+          "label": "Mediocentro def.",
+          "shortLabel": "MCD"
+        }
+      ],
+      "playerAbilities": [
+        {
+          "id": "trait1_64",
+          "label": "Pase al espacio",
+          "description": "Pases rasos más rápidos sin afectar el control de quien los recibe",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/1mXBWIBgJSpYoIa1C4r5FX/7220e78a4049530f4e9fa642b1656fa4/Pinged_Pass.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 36,
+        "label": "Noruega",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/2oqGDALzThEx7wBBMbyIqE/759a715ed2bf7146304a0736ede94430/f_36.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "14",
+        "shortLabel": "MC",
+        "label": "Mediocentro",
+        "positionType": {
+          "id": "midfielder",
+          "name": "Mediocampista"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 51,
+          "diff": -4
+        },
+        "agility": {
+          "value": 47,
+          "diff": -9
+        },
+        "jumping": {
+          "value": 81,
+          "diff": -5
+        },
+        "stamina": {
+          "value": 81,
+          "diff": 0
+        },
+        "strength": {
+          "value": 91,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 76,
+          "diff": 3
+        },
+        "balance": {
+          "value": 33,
+          "diff": -21
+        },
+        "ballControl": {
+          "value": 77,
+          "diff": 1
+        },
+        "composure": {
+          "value": 81,
+          "diff": -2
+        },
+        "crossing": {
+          "value": 66,
+          "diff": 0
+        },
+        "curve": {
+          "value": 72,
+          "diff": 0
+        },
+        "def": {
+          "value": 75,
+          "diff": 1
+        },
+        "defensiveAwareness": {
+          "value": 75,
+          "diff": 1
+        },
+        "dri": {
+          "value": 71,
+          "diff": -2
+        },
+        "dribbling": {
+          "value": 75,
+          "diff": 0
+        },
+        "finishing": {
+          "value": 63,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 51,
+          "diff": 1
+        },
+        "gkDiving": {
+          "value": 14,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 9,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 10,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 8,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 10,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 74,
+          "diff": -5
+        },
+        "interceptions": {
+          "value": 76,
+          "diff": 3
+        },
+        "longPassing": {
+          "value": 77,
+          "diff": 2
+        },
+        "longShots": {
+          "value": 62,
+          "diff": 0
+        },
+        "pac": {
+          "value": 53,
+          "diff": -10
+        },
+        "pas": {
+          "value": 73,
+          "diff": 0
+        },
+        "penalties": {
+          "value": 54,
+          "diff": 0
+        },
+        "phy": {
+          "value": 85,
+          "diff": 0
+        },
+        "positioning": {
+          "value": 70,
+          "diff": 1
+        },
+        "reactions": {
+          "value": 76,
+          "diff": 3
+        },
+        "sho": {
+          "value": 65,
+          "diff": 0
+        },
+        "shortPassing": {
+          "value": 78,
+          "diff": 0
+        },
+        "shotPower": {
+          "value": 76,
+          "diff": 0
+        },
+        "slidingTackle": {
+          "value": 72,
+          "diff": 5
+        },
+        "sprintSpeed": {
+          "value": 55,
+          "diff": -14
+        },
+        "standingTackle": {
+          "value": 76,
+          "diff": 1
+        },
+        "vision": {
+          "value": 75,
+          "diff": 1
+        },
+        "volleys": {
+          "value": 51,
+          "diff": 2
+        }
+      }
+    },
+    {
+      "id": 216266,
+      "rank": 1520,
+      "overallRating": 76,
+      "firstName": "Kenny",
+      "lastName": "Tete",
+      "commonName": null,
+      "birthdate": "10/09/1995 00:00",
+      "height": 180,
+      "skillMoves": 2,
+      "weakFootAbility": 2,
+      "preferredFoot": 1,
+      "leagueName": "Premier League",
+      "weight": 71,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p216266.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/216266.png?width=265",
+      "alternatePositions": null,
+      "playerAbilities": [
+        {
+          "id": "trait1_4096",
+          "label": "Intercepción",
+          "description": "Más alcance y retención de la posesión del balón en las intercepciones",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/5ysv7Iw8jDHl7sp1JXqIa7/d34004fed8c95bde083dcf8257391a70/Intercept.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        },
+        {
+          "id": "trait1_67108864",
+          "label": "Saques de banda",
+          "description": "Potentes saques de banda para mayor una distancia",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/51OlohNQvoEwW0aLhknAHh/58fa7d903d10f6d8cfa2622f62ba6b6f/Long_Throw.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 34,
+        "label": "Holanda",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/4uNbG6XOZIntXSyvoqzfAN/611b3238ff441ce8440cc7643632fa0f/f_34.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "3",
+        "shortLabel": "DFD",
+        "label": "Defensa derecho/a",
+        "positionType": {
+          "id": "defense",
+          "name": "Defensa"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 73,
+          "diff": -1
+        },
+        "agility": {
+          "value": 73,
+          "diff": 1
+        },
+        "jumping": {
+          "value": 83,
+          "diff": 0
+        },
+        "stamina": {
+          "value": 76,
+          "diff": 0
+        },
+        "strength": {
+          "value": 76,
+          "diff": 1
+        },
+        "aggression": {
+          "value": 78,
+          "diff": 1
+        },
+        "balance": {
+          "value": 68,
+          "diff": 2
+        },
+        "ballControl": {
+          "value": 70,
+          "diff": 0
+        },
+        "composure": {
+          "value": 66,
+          "diff": 0
+        },
+        "crossing": {
+          "value": 76,
+          "diff": -1
+        },
+        "curve": {
+          "value": 61,
+          "diff": 0
+        },
+        "def": {
+          "value": 75,
+          "diff": 0
+        },
+        "defensiveAwareness": {
+          "value": 75,
+          "diff": -1
+        },
+        "dri": {
+          "value": 69,
+          "diff": 0
+        },
+        "dribbling": {
+          "value": 68,
+          "diff": 0
+        },
+        "finishing": {
+          "value": 42,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 41,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 9,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 15,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 11,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 6,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 10,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 73,
+          "diff": 0
+        },
+        "interceptions": {
+          "value": 74,
+          "diff": 1
+        },
+        "longPassing": {
+          "value": 68,
+          "diff": 0
+        },
+        "longShots": {
+          "value": 41,
+          "diff": 0
+        },
+        "pac": {
+          "value": 73,
+          "diff": -2
+        },
+        "pas": {
+          "value": 67,
+          "diff": -1
+        },
+        "penalties": {
+          "value": 46,
+          "diff": 0
+        },
+        "phy": {
+          "value": 77,
+          "diff": 1
+        },
+        "positioning": {
+          "value": 61,
+          "diff": 0
+        },
+        "reactions": {
+          "value": 72,
+          "diff": 4
+        },
+        "sho": {
+          "value": 47,
+          "diff": 0
+        },
+        "shortPassing": {
+          "value": 72,
+          "diff": 0
+        },
+        "shotPower": {
+          "value": 64,
+          "diff": 0
+        },
+        "slidingTackle": {
+          "value": 78,
+          "diff": 2
+        },
+        "sprintSpeed": {
+          "value": 73,
+          "diff": -2
+        },
+        "standingTackle": {
+          "value": 76,
+          "diff": -1
+        },
+        "vision": {
+          "value": 58,
+          "diff": 0
+        },
+        "volleys": {
+          "value": 36,
+          "diff": 0
+        }
+      }
+    },
+    {
+      "id": 195202,
+      "rank": 1881,
+      "overallRating": 75,
+      "firstName": "Tom",
+      "lastName": "Cairney",
+      "commonName": null,
+      "birthdate": "1/20/1991 12:00:00 AM",
+      "height": 186,
+      "skillMoves": 3,
+      "weakFootAbility": 2,
+      "preferredFoot": 2,
+      "leagueName": "Premier League",
+      "weight": 84,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p195202.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/195202.png?width=250",
+      "alternatePositions": [
+        {
+          "id": "10",
+          "label": "Mediocentro def.",
+          "shortLabel": "MCD"
+        },
+        {
+          "id": "18",
+          "label": "Mediocentro of.",
+          "shortLabel": "MCO"
+        }
+      ],
+      "playerAbilities": [],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 42,
+        "label": "Escocia",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/7eFwNyL2kYdVCHj8wqEySc/26c7e6057100962e21ec2866af986f20/f_42.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "14",
+        "shortLabel": "MC",
+        "label": "Mediocentro",
+        "positionType": {
+          "id": "midfielder",
+          "name": "Mediocampista"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 53,
+          "diff": -10
+        },
+        "agility": {
+          "value": 68,
+          "diff": -5
+        },
+        "jumping": {
+          "value": 64,
+          "diff": -3
+        },
+        "stamina": {
+          "value": 66,
+          "diff": 2
+        },
+        "strength": {
+          "value": 68,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 58,
+          "diff": 2
+        },
+        "balance": {
+          "value": 67,
+          "diff": 0
+        },
+        "ballControl": {
+          "value": 78,
+          "diff": 0
+        },
+        "composure": {
+          "value": 81,
+          "diff": 2
+        },
+        "crossing": {
+          "value": 78,
+          "diff": 1
+        },
+        "curve": {
+          "value": 77,
+          "diff": 1
+        },
+        "def": {
+          "value": 63,
+          "diff": 1
+        },
+        "defensiveAwareness": {
+          "value": 67,
+          "diff": 2
+        },
+        "dri": {
+          "value": 75,
+          "diff": 0
+        },
+        "dribbling": {
+          "value": 75,
+          "diff": 0
+        },
+        "finishing": {
+          "value": 70,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 72,
+          "diff": -1
+        },
+        "gkDiving": {
+          "value": 14,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 12,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 7,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 6,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 7,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 58,
+          "diff": 0
+        },
+        "interceptions": {
+          "value": 64,
+          "diff": 2
+        },
+        "longPassing": {
+          "value": 77,
+          "diff": 0
+        },
+        "longShots": {
+          "value": 76,
+          "diff": 0
+        },
+        "pac": {
+          "value": 52,
+          "diff": -4
+        },
+        "pas": {
+          "value": 78,
+          "diff": 1
+        },
+        "penalties": {
+          "value": 65,
+          "diff": 0
+        },
+        "phy": {
+          "value": 65,
+          "diff": 0
+        },
+        "positioning": {
+          "value": 75,
+          "diff": 3
+        },
+        "reactions": {
+          "value": 77,
+          "diff": 3
+        },
+        "sho": {
+          "value": 72,
+          "diff": 0
+        },
+        "shortPassing": {
+          "value": 78,
+          "diff": 0
+        },
+        "shotPower": {
+          "value": 73,
+          "diff": -1
+        },
+        "slidingTackle": {
+          "value": 48,
+          "diff": -3
+        },
+        "sprintSpeed": {
+          "value": 51,
+          "diff": 0
+        },
+        "standingTackle": {
+          "value": 64,
+          "diff": 1
+        },
+        "vision": {
+          "value": 78,
+          "diff": 3
+        },
+        "volleys": {
+          "value": 72,
+          "diff": 0
+        }
+      }
+    },
+    {
+      "id": 236699,
+      "rank": 1881,
+      "overallRating": 75,
+      "firstName": "Saša",
+      "lastName": "Lukić",
+      "commonName": null,
+      "birthdate": "8/13/1996 12:00:00 AM",
+      "height": 183,
+      "skillMoves": 3,
+      "weakFootAbility": 3,
+      "preferredFoot": 1,
+      "leagueName": "Premier League",
+      "weight": 77,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p236699.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/236699.png?width=265",
+      "alternatePositions": [
+        {
+          "id": "10",
+          "label": "Mediocentro def.",
+          "shortLabel": "MCD"
+        }
+      ],
+      "playerAbilities": [
+        {
+          "id": "trait1_32",
+          "label": "Pase balístico",
+          "description": "Pases filtrados más precisos, efecto más curvado, de precisión más rápidos",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/2K5BYfVYRnrdjt8F3hwI04/62f147b6a436c107bfa3d042c1d5728d/Incisive_Pass.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 51,
+        "label": "Serbia",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/2FEGjkYVxKR5rKjPaAEmOS/15cdaa7df795b3ed40e120fa84b11cab/f_51.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "14",
+        "shortLabel": "MC",
+        "label": "Mediocentro",
+        "positionType": {
+          "id": "midfielder",
+          "name": "Mediocampista"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 52,
+          "diff": -10
+        },
+        "agility": {
+          "value": 65,
+          "diff": 0
+        },
+        "jumping": {
+          "value": 66,
+          "diff": -1
+        },
+        "stamina": {
+          "value": 74,
+          "diff": -7
+        },
+        "strength": {
+          "value": 69,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 69,
+          "diff": 0
+        },
+        "balance": {
+          "value": 68,
+          "diff": -1
+        },
+        "ballControl": {
+          "value": 79,
+          "diff": -2
+        },
+        "composure": {
+          "value": 75,
+          "diff": -2
+        },
+        "crossing": {
+          "value": 66,
+          "diff": -3
+        },
+        "curve": {
+          "value": 72,
+          "diff": 0
+        },
+        "def": {
+          "value": 70,
+          "diff": 2
+        },
+        "defensiveAwareness": {
+          "value": 68,
+          "diff": 3
+        },
+        "dri": {
+          "value": 75,
+          "diff": -3
+        },
+        "dribbling": {
+          "value": 76,
+          "diff": -5
+        },
+        "finishing": {
+          "value": 65,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 70,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 9,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 11,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 13,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 9,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 6,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 62,
+          "diff": 4
+        },
+        "interceptions": {
+          "value": 70,
+          "diff": 3
+        },
+        "longPassing": {
+          "value": 76,
+          "diff": -2
+        },
+        "longShots": {
+          "value": 70,
+          "diff": 1
+        },
+        "pac": {
+          "value": 53,
+          "diff": -6
+        },
+        "pas": {
+          "value": 74,
+          "diff": -3
+        },
+        "penalties": {
+          "value": 70,
+          "diff": 0
+        },
+        "phy": {
+          "value": 70,
+          "diff": -2
+        },
+        "positioning": {
+          "value": 70,
+          "diff": 0
+        },
+        "reactions": {
+          "value": 72,
+          "diff": 1
+        },
+        "sho": {
+          "value": 69,
+          "diff": 1
+        },
+        "shortPassing": {
+          "value": 77,
+          "diff": -5
+        },
+        "shotPower": {
+          "value": 75,
+          "diff": 1
+        },
+        "slidingTackle": {
+          "value": 72,
+          "diff": 0
+        },
+        "sprintSpeed": {
+          "value": 53,
+          "diff": -3
+        },
+        "standingTackle": {
+          "value": 73,
+          "diff": 1
+        },
+        "vision": {
+          "value": 77,
+          "diff": -3
+        },
+        "volleys": {
+          "value": 68,
+          "diff": 0
+        }
+      }
+    },
+    {
+      "id": 264337,
+      "rank": 1881,
+      "overallRating": 75,
+      "firstName": "Rodrigo",
+      "lastName": "Muniz Carvalho",
+      "commonName": "Rodrigo Muniz",
+      "birthdate": "05/04/2001 00:00",
+      "height": 185,
+      "skillMoves": 3,
+      "weakFootAbility": 3,
+      "preferredFoot": 1,
+      "leagueName": "Premier League",
+      "weight": 79,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p264337.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/264337.png?width=265",
+      "alternatePositions": null,
+      "playerAbilities": [
+        {
+          "id": "trait1_262144",
+          "label": "Elegante",
+          "description": "Pases/tiros con clase más precisos, animaciones elegantes contextuales",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/4q0QkDX0CLgDyBXWBO8lEn/7d727e85de9ee27d3aece799571aa982/Flair.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        },
+        {
+          "id": "icontrait1_33554432",
+          "label": "Acrobático+",
+          "description": "Realiza voleas con aún mayor precisión, animaciones de volea acrobáticas únicas",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/5Zb5jkAdaqaJSPFvb7W3zl/cf788143996a34edc03b1d1dc6a45169/Acrobatic_.png",
+          "type": {
+            "id": "playStylePlus",
+            "label": "Play Style Plus"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 54,
+        "label": "Brasil",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3Rwp4RzPbtNP3FHh21UXAG/1d1cf1b849dfaeb232744c8c725d93b6/f_54.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "25",
+        "shortLabel": "DC",
+        "label": "Delantero/a centro",
+        "positionType": {
+          "id": "attack",
+          "name": "Atacar"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 70,
+          "diff": 1
+        },
+        "agility": {
+          "value": 74,
+          "diff": 1
+        },
+        "jumping": {
+          "value": 85,
+          "diff": 7
+        },
+        "stamina": {
+          "value": 69,
+          "diff": 8
+        },
+        "strength": {
+          "value": 79,
+          "diff": 1
+        },
+        "aggression": {
+          "value": 79,
+          "diff": 15
+        },
+        "balance": {
+          "value": 71,
+          "diff": 5
+        },
+        "ballControl": {
+          "value": 72,
+          "diff": 4
+        },
+        "composure": {
+          "value": 71,
+          "diff": 8
+        },
+        "crossing": {
+          "value": 47,
+          "diff": 1
+        },
+        "curve": {
+          "value": 60,
+          "diff": 2
+        },
+        "def": {
+          "value": 42,
+          "diff": 9
+        },
+        "defensiveAwareness": {
+          "value": 36,
+          "diff": 6
+        },
+        "dri": {
+          "value": 71,
+          "diff": 4
+        },
+        "dribbling": {
+          "value": 70,
+          "diff": 5
+        },
+        "finishing": {
+          "value": 76,
+          "diff": 7
+        },
+        "freeKickAccuracy": {
+          "value": 41,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 12,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 13,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 13,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 11,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 12,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 77,
+          "diff": 9
+        },
+        "interceptions": {
+          "value": 38,
+          "diff": 6
+        },
+        "longPassing": {
+          "value": 53,
+          "diff": 1
+        },
+        "longShots": {
+          "value": 64,
+          "diff": 0
+        },
+        "pac": {
+          "value": 73,
+          "diff": 3
+        },
+        "pas": {
+          "value": 59,
+          "diff": 4
+        },
+        "penalties": {
+          "value": 65,
+          "diff": 0
+        },
+        "phy": {
+          "value": 77,
+          "diff": 6
+        },
+        "positioning": {
+          "value": 77,
+          "diff": 8
+        },
+        "reactions": {
+          "value": 75,
+          "diff": 12
+        },
+        "sho": {
+          "value": 74,
+          "diff": 5
+        },
+        "shortPassing": {
+          "value": 68,
+          "diff": 8
+        },
+        "shotPower": {
+          "value": 79,
+          "diff": 4
+        },
+        "slidingTackle": {
+          "value": 31,
+          "diff": 5
+        },
+        "sprintSpeed": {
+          "value": 75,
+          "diff": 4
+        },
+        "standingTackle": {
+          "value": 42,
+          "diff": 14
+        },
+        "vision": {
+          "value": 65,
+          "diff": 5
+        },
+        "volleys": {
+          "value": 86,
+          "diff": 20
+        }
+      }
+    },
+    {
+      "id": 231448,
+      "rank": 1881,
+      "overallRating": 75,
+      "firstName": "Reiss",
+      "lastName": "Nelson",
+      "commonName": null,
+      "birthdate": "12/10/1999 00:00",
+      "height": 175,
+      "skillMoves": 4,
+      "weakFootAbility": 3,
+      "preferredFoot": 1,
+      "leagueName": "Premier League",
+      "weight": 71,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p231448.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/231448.png?width=265",
+      "alternatePositions": [
+        {
+          "id": "27",
+          "label": "Extremo/a izq.",
+          "shortLabel": "EI"
+        },
+        {
+          "id": "12",
+          "label": "Medio derecho/a",
+          "shortLabel": "MD"
+        }
+      ],
+      "playerAbilities": [
+        {
+          "id": "trait1_65536",
+          "label": "Técnico",
+          "description": "Sprint controlado con más velocidad, giros abiertos al regatear más precisos",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/5Esx7NK4YBU44O4bo07rvb/69ca9417da7fd07905f6c6956ad93f6d/Technical.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        },
+        {
+          "id": "trait1_262144",
+          "label": "Elegante",
+          "description": "Pases/tiros con clase más precisos, animaciones elegantes contextuales",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/4q0QkDX0CLgDyBXWBO8lEn/7d727e85de9ee27d3aece799571aa982/Flair.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 14,
+        "label": "Inglaterra",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/4BVs0BAE16wJ4ihZS72xv8/5f2bab28b731170d875d4b0dd66b3664/f_14.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "23",
+        "shortLabel": "ED",
+        "label": "Extremo/a der.",
+        "positionType": {
+          "id": "attack",
+          "name": "Atacar"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 86,
+          "diff": 0
+        },
+        "agility": {
+          "value": 82,
+          "diff": 0
+        },
+        "jumping": {
+          "value": 60,
+          "diff": 0
+        },
+        "stamina": {
+          "value": 70,
+          "diff": 0
+        },
+        "strength": {
+          "value": 53,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 42,
+          "diff": 0
+        },
+        "balance": {
+          "value": 80,
+          "diff": 0
+        },
+        "ballControl": {
+          "value": 79,
+          "diff": 1
+        },
+        "composure": {
+          "value": 60,
+          "diff": 0
+        },
+        "crossing": {
+          "value": 72,
+          "diff": 3
+        },
+        "curve": {
+          "value": 66,
+          "diff": 0
+        },
+        "def": {
+          "value": 36,
+          "diff": 0
+        },
+        "defensiveAwareness": {
+          "value": 31,
+          "diff": 0
+        },
+        "dri": {
+          "value": 78,
+          "diff": 0
+        },
+        "dribbling": {
+          "value": 80,
+          "diff": 1
+        },
+        "finishing": {
+          "value": 70,
+          "diff": 1
+        },
+        "freeKickAccuracy": {
+          "value": 67,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 12,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 12,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 11,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 11,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 15,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 39,
+          "diff": 0
+        },
+        "interceptions": {
+          "value": 42,
+          "diff": 0
+        },
+        "longPassing": {
+          "value": 63,
+          "diff": 2
+        },
+        "longShots": {
+          "value": 59,
+          "diff": 1
+        },
+        "pac": {
+          "value": 85,
+          "diff": -1
+        },
+        "pas": {
+          "value": 71,
+          "diff": 2
+        },
+        "penalties": {
+          "value": 61,
+          "diff": 1
+        },
+        "phy": {
+          "value": 55,
+          "diff": 0
+        },
+        "positioning": {
+          "value": 70,
+          "diff": 1
+        },
+        "reactions": {
+          "value": 68,
+          "diff": 1
+        },
+        "sho": {
+          "value": 67,
+          "diff": 1
+        },
+        "shortPassing": {
+          "value": 74,
+          "diff": 2
+        },
+        "shotPower": {
+          "value": 69,
+          "diff": 1
+        },
+        "slidingTackle": {
+          "value": 37,
+          "diff": 0
+        },
+        "sprintSpeed": {
+          "value": 85,
+          "diff": -1
+        },
+        "standingTackle": {
+          "value": 37,
+          "diff": 0
+        },
+        "vision": {
+          "value": 73,
+          "diff": 2
+        },
+        "volleys": {
+          "value": 59,
+          "diff": 0
+        }
+      }
+    },
+    {
+      "id": 205990,
+      "rank": 1881,
+      "overallRating": 75,
+      "firstName": "Harrison",
+      "lastName": "Reed",
+      "commonName": null,
+      "birthdate": "1/27/1995 12:00:00 AM",
+      "height": 175,
+      "skillMoves": 3,
+      "weakFootAbility": 3,
+      "preferredFoot": 1,
+      "leagueName": "Premier League",
+      "weight": 72,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p205990.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/205990.png?width=265",
+      "alternatePositions": [
+        {
+          "id": "14",
+          "label": "Mediocentro",
+          "shortLabel": "MC"
+        }
+      ],
+      "playerAbilities": [
+        {
+          "id": "trait1_16384",
+          "label": "Barrida",
+          "description": "Detiene el balón a los pies al realizar una barrida",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/7mI1lrxE0pv9iJfQFki9OA/8c1ecac325f923e049be72231c8c968a/Slide_Tackle.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 14,
+        "label": "Inglaterra",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/4BVs0BAE16wJ4ihZS72xv8/5f2bab28b731170d875d4b0dd66b3664/f_14.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "10",
+        "shortLabel": "MCD",
+        "label": "Mediocentro def.",
+        "positionType": {
+          "id": "midfielder",
+          "name": "Mediocampista"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 67,
+          "diff": -8
+        },
+        "agility": {
+          "value": 74,
+          "diff": 0
+        },
+        "jumping": {
+          "value": 66,
+          "diff": -3
+        },
+        "stamina": {
+          "value": 81,
+          "diff": -1
+        },
+        "strength": {
+          "value": 69,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 82,
+          "diff": 0
+        },
+        "balance": {
+          "value": 80,
+          "diff": 0
+        },
+        "ballControl": {
+          "value": 72,
+          "diff": 0
+        },
+        "composure": {
+          "value": 71,
+          "diff": -1
+        },
+        "crossing": {
+          "value": 73,
+          "diff": 0
+        },
+        "curve": {
+          "value": 65,
+          "diff": 0
+        },
+        "def": {
+          "value": 72,
+          "diff": 0
+        },
+        "defensiveAwareness": {
+          "value": 74,
+          "diff": 0
+        },
+        "dri": {
+          "value": 71,
+          "diff": 0
+        },
+        "dribbling": {
+          "value": 68,
+          "diff": -1
+        },
+        "finishing": {
+          "value": 59,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 61,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 7,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 12,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 14,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 10,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 11,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 53,
+          "diff": 2
+        },
+        "interceptions": {
+          "value": 75,
+          "diff": -2
+        },
+        "longPassing": {
+          "value": 72,
+          "diff": 0
+        },
+        "longShots": {
+          "value": 63,
+          "diff": 0
+        },
+        "pac": {
+          "value": 59,
+          "diff": -9
+        },
+        "pas": {
+          "value": 71,
+          "diff": -1
+        },
+        "penalties": {
+          "value": 49,
+          "diff": 0
+        },
+        "phy": {
+          "value": 74,
+          "diff": -1
+        },
+        "positioning": {
+          "value": 67,
+          "diff": 0
+        },
+        "reactions": {
+          "value": 74,
+          "diff": -1
+        },
+        "sho": {
+          "value": 60,
+          "diff": 0
+        },
+        "shortPassing": {
+          "value": 73,
+          "diff": -1
+        },
+        "shotPower": {
+          "value": 67,
+          "diff": 0
+        },
+        "slidingTackle": {
+          "value": 72,
+          "diff": 0
+        },
+        "sprintSpeed": {
+          "value": 52,
+          "diff": -10
+        },
+        "standingTackle": {
+          "value": 75,
+          "diff": 0
+        },
+        "vision": {
+          "value": 70,
+          "diff": -1
+        },
+        "volleys": {
+          "value": 40,
+          "diff": 0
+        }
+      }
+    },
+    {
+      "id": 213956,
+      "rank": 1881,
+      "overallRating": 75,
+      "firstName": "Adama",
+      "lastName": "Traoré Diarra",
+      "commonName": "Adama Traoré",
+      "birthdate": "1/25/1996 12:00:00 AM",
+      "height": 178,
+      "skillMoves": 4,
+      "weakFootAbility": 2,
+      "preferredFoot": 1,
+      "leagueName": "Premier League",
+      "weight": 86,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p213956.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/213956.png?width=265",
+      "alternatePositions": [
+        {
+          "id": "23",
+          "label": "Extremo/a der.",
+          "shortLabel": "ED"
+        }
+      ],
+      "playerAbilities": [
+        {
+          "id": "trait1_131072",
+          "label": "Veloz",
+          "description": "Más velocidad de sprint al regatear, menos errores al adelantar el balón",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/1aGsvwKyIFlRG1eoJSS0Ot/a4d3d661ff962795a632fe86439d2146/Rapid.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        },
+        {
+          "id": "trait1_4194304",
+          "label": "Paso veloz",
+          "description": "Aceleración más rápida durante el sprint explosivo",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/1xG25Zp3wvkLA5YewKiZah/f27f5fabd1e899fc0bbb817d2db233b1/Quick_Step.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 45,
+        "label": "España",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/7k3VpeG3cF7mCTkCpmY6cu/ee3d0c890df33b3ad4b4d5b9cd031ba9/f_45.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "12",
+        "shortLabel": "MD",
+        "label": "Medio derecho/a",
+        "positionType": {
+          "id": "midfielder",
+          "name": "Mediocampista"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 94,
+          "diff": 0
+        },
+        "agility": {
+          "value": 78,
+          "diff": 0
+        },
+        "jumping": {
+          "value": 79,
+          "diff": 0
+        },
+        "stamina": {
+          "value": 67,
+          "diff": 0
+        },
+        "strength": {
+          "value": 88,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 76,
+          "diff": 0
+        },
+        "balance": {
+          "value": 87,
+          "diff": 0
+        },
+        "ballControl": {
+          "value": 77,
+          "diff": 0
+        },
+        "composure": {
+          "value": 66,
+          "diff": 0
+        },
+        "crossing": {
+          "value": 73,
+          "diff": 0
+        },
+        "curve": {
+          "value": 72,
+          "diff": 0
+        },
+        "def": {
+          "value": 37,
+          "diff": 0
+        },
+        "defensiveAwareness": {
+          "value": 33,
+          "diff": 0
+        },
+        "dri": {
+          "value": 81,
+          "diff": 0
+        },
+        "dribbling": {
+          "value": 86,
+          "diff": 0
+        },
+        "finishing": {
+          "value": 61,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 42,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 13,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 9,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 11,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 12,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 7,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 40,
+          "diff": 0
+        },
+        "interceptions": {
+          "value": 38,
+          "diff": 0
+        },
+        "longPassing": {
+          "value": 49,
+          "diff": 0
+        },
+        "longShots": {
+          "value": 62,
+          "diff": 0
+        },
+        "pac": {
+          "value": 93,
+          "diff": 0
+        },
+        "pas": {
+          "value": 64,
+          "diff": 0
+        },
+        "penalties": {
+          "value": 47,
+          "diff": 0
+        },
+        "phy": {
+          "value": 80,
+          "diff": 0
+        },
+        "positioning": {
+          "value": 62,
+          "diff": 0
+        },
+        "reactions": {
+          "value": 71,
+          "diff": 0
+        },
+        "sho": {
+          "value": 65,
+          "diff": 0
+        },
+        "shortPassing": {
+          "value": 69,
+          "diff": 0
+        },
+        "shotPower": {
+          "value": 84,
+          "diff": 0
+        },
+        "slidingTackle": {
+          "value": 34,
+          "diff": 0
+        },
+        "sprintSpeed": {
+          "value": 93,
+          "diff": 0
+        },
+        "standingTackle": {
+          "value": 40,
+          "diff": 0
+        },
+        "vision": {
+          "value": 63,
+          "diff": 0
+        },
+        "volleys": {
+          "value": 60,
+          "diff": 0
+        }
+      }
+    },
+    {
+      "id": 220710,
+      "rank": 1881,
+      "overallRating": 75,
+      "firstName": "Harry",
+      "lastName": "Wilson",
+      "commonName": null,
+      "birthdate": "3/22/1997 12:00:00 AM",
+      "height": 173,
+      "skillMoves": 3,
+      "weakFootAbility": 2,
+      "preferredFoot": 2,
+      "leagueName": "Premier League",
+      "weight": 70,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p220710.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/220710.png?width=250",
+      "alternatePositions": [
+        {
+          "id": "23",
+          "label": "Extremo/a der.",
+          "shortLabel": "ED"
+        }
+      ],
+      "playerAbilities": [],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 50,
+        "label": "Gales",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/2lb0longLpAchIBtWvKqad/335e504d5aabaf48225d5093c2e9bb0a/f_50.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "12",
+        "shortLabel": "MD",
+        "label": "Medio derecho/a",
+        "positionType": {
+          "id": "midfielder",
+          "name": "Mediocampista"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 77,
+          "diff": 1
+        },
+        "agility": {
+          "value": 78,
+          "diff": 0
+        },
+        "jumping": {
+          "value": 63,
+          "diff": 1
+        },
+        "stamina": {
+          "value": 71,
+          "diff": 0
+        },
+        "strength": {
+          "value": 56,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 45,
+          "diff": 0
+        },
+        "balance": {
+          "value": 84,
+          "diff": 0
+        },
+        "ballControl": {
+          "value": 76,
+          "diff": 0
+        },
+        "composure": {
+          "value": 76,
+          "diff": 0
+        },
+        "crossing": {
+          "value": 77,
+          "diff": 0
+        },
+        "curve": {
+          "value": 84,
+          "diff": -2
+        },
+        "def": {
+          "value": 43,
+          "diff": 0
+        },
+        "defensiveAwareness": {
+          "value": 44,
+          "diff": 0
+        },
+        "dri": {
+          "value": 76,
+          "diff": 0
+        },
+        "dribbling": {
+          "value": 74,
+          "diff": 0
+        },
+        "finishing": {
+          "value": 74,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 84,
+          "diff": -1
+        },
+        "gkDiving": {
+          "value": 7,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 13,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 9,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 15,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 7,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 46,
+          "diff": 0
+        },
+        "interceptions": {
+          "value": 40,
+          "diff": 0
+        },
+        "longPassing": {
+          "value": 68,
+          "diff": 0
+        },
+        "longShots": {
+          "value": 81,
+          "diff": 0
+        },
+        "pac": {
+          "value": 76,
+          "diff": 3
+        },
+        "pas": {
+          "value": 75,
+          "diff": 0
+        },
+        "penalties": {
+          "value": 77,
+          "diff": -1
+        },
+        "phy": {
+          "value": 58,
+          "diff": 0
+        },
+        "positioning": {
+          "value": 74,
+          "diff": 0
+        },
+        "reactions": {
+          "value": 73,
+          "diff": 0
+        },
+        "sho": {
+          "value": 77,
+          "diff": 0
+        },
+        "shortPassing": {
+          "value": 74,
+          "diff": -1
+        },
+        "shotPower": {
+          "value": 83,
+          "diff": 0
+        },
+        "slidingTackle": {
+          "value": 40,
+          "diff": 0
+        },
+        "sprintSpeed": {
+          "value": 75,
+          "diff": 4
+        },
+        "standingTackle": {
+          "value": 45,
+          "diff": 0
+        },
+        "vision": {
+          "value": 75,
+          "diff": 0
+        },
+        "volleys": {
+          "value": 74,
+          "diff": 0
+        }
+      }
+    },
+    {
+      "id": 244621,
+      "rank": 2309,
+      "overallRating": 74,
+      "firstName": "Carlos Vinícius",
+      "lastName": "Alves Morais",
+      "commonName": "Vinícius",
+      "birthdate": "3/22/1995 12:00:00 AM",
+      "height": 190,
+      "skillMoves": 3,
+      "weakFootAbility": 3,
+      "preferredFoot": 2,
+      "leagueName": "Premier League",
+      "weight": 83,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p244621.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/244621.png?width=250",
+      "alternatePositions": null,
+      "playerAbilities": [],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 54,
+        "label": "Brasil",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3Rwp4RzPbtNP3FHh21UXAG/1d1cf1b849dfaeb232744c8c725d93b6/f_54.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "25",
+        "shortLabel": "DC",
+        "label": "Delantero/a centro",
+        "positionType": {
+          "id": "attack",
+          "name": "Atacar"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 63,
+          "diff": -2
+        },
+        "agility": {
+          "value": 66,
+          "diff": 0
+        },
+        "jumping": {
+          "value": 79,
+          "diff": -1
+        },
+        "stamina": {
+          "value": 69,
+          "diff": 0
+        },
+        "strength": {
+          "value": 83,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 83,
+          "diff": 2
+        },
+        "balance": {
+          "value": 44,
+          "diff": 0
+        },
+        "ballControl": {
+          "value": 71,
+          "diff": -5
+        },
+        "composure": {
+          "value": 78,
+          "diff": -2
+        },
+        "crossing": {
+          "value": 51,
+          "diff": 0
+        },
+        "curve": {
+          "value": 65,
+          "diff": 0
+        },
+        "def": {
+          "value": 41,
+          "diff": 0
+        },
+        "defensiveAwareness": {
+          "value": 44,
+          "diff": 0
+        },
+        "dri": {
+          "value": 69,
+          "diff": -3
+        },
+        "dribbling": {
+          "value": 70,
+          "diff": -2
+        },
+        "finishing": {
+          "value": 74,
+          "diff": -3
+        },
+        "freeKickAccuracy": {
+          "value": 48,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 15,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 13,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 13,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 7,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 6,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 70,
+          "diff": 0
+        },
+        "interceptions": {
+          "value": 41,
+          "diff": 0
+        },
+        "longPassing": {
+          "value": 47,
+          "diff": 0
+        },
+        "longShots": {
+          "value": 68,
+          "diff": 0
+        },
+        "pac": {
+          "value": 70,
+          "diff": -1
+        },
+        "pas": {
+          "value": 60,
+          "diff": -1
+        },
+        "penalties": {
+          "value": 71,
+          "diff": 0
+        },
+        "phy": {
+          "value": 79,
+          "diff": 0
+        },
+        "positioning": {
+          "value": 77,
+          "diff": 0
+        },
+        "reactions": {
+          "value": 75,
+          "diff": 0
+        },
+        "sho": {
+          "value": 75,
+          "diff": -1
+        },
+        "shortPassing": {
+          "value": 70,
+          "diff": -1
+        },
+        "shotPower": {
+          "value": 83,
+          "diff": 0
+        },
+        "slidingTackle": {
+          "value": 25,
+          "diff": 0
+        },
+        "sprintSpeed": {
+          "value": 75,
+          "diff": 0
+        },
+        "standingTackle": {
+          "value": 33,
+          "diff": 0
+        },
+        "vision": {
+          "value": 65,
+          "diff": 0
+        },
+        "volleys": {
+          "value": 73,
+          "diff": 0
+        }
+      }
+    },
+    {
+      "id": 237522,
+      "rank": 2309,
+      "overallRating": 74,
+      "firstName": "Jorge",
+      "lastName": "Cuenca Barreno",
+      "commonName": "Jorge Cuenca",
+      "birthdate": "11/17/1999 12:00:00 AM",
+      "height": 190,
+      "skillMoves": 2,
+      "weakFootAbility": 3,
+      "preferredFoot": 2,
+      "leagueName": "Premier League",
+      "weight": 75,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p237522.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/237522.png?width=265",
+      "alternatePositions": [
+        {
+          "id": "7",
+          "label": "Defensa izquierdo/a",
+          "shortLabel": "DFI"
+        }
+      ],
+      "playerAbilities": [
+        {
+          "id": "trait1_16",
+          "label": "Cabezazo potente",
+          "description": "Cabezazos potentes y precisos",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/6sIKhOAdV5ZrEl35v8Qn1Q/ae40a62dde951ea0ca15a078c93ae580/Power_Header.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        },
+        {
+          "id": "trait1_128",
+          "label": "Pase largo",
+          "description": "Pases filtrados elevados y bombeados más precisos y rápidos",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/7jwRDD4zkOsqRpc821t73d/16d46d57a5dfc7dd5dd5f8de0fd26a99/Long_Ball_Pass.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 45,
+        "label": "España",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/7k3VpeG3cF7mCTkCpmY6cu/ee3d0c890df33b3ad4b4d5b9cd031ba9/f_45.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "5",
+        "shortLabel": "DFC",
+        "label": "Defensa central",
+        "positionType": {
+          "id": "defense",
+          "name": "Defensa"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 59,
+          "diff": 4
+        },
+        "agility": {
+          "value": 63,
+          "diff": 2
+        },
+        "jumping": {
+          "value": 75,
+          "diff": 3
+        },
+        "stamina": {
+          "value": 66,
+          "diff": 5
+        },
+        "strength": {
+          "value": 64,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 74,
+          "diff": 1
+        },
+        "balance": {
+          "value": 67,
+          "diff": 1
+        },
+        "ballControl": {
+          "value": 70,
+          "diff": 2
+        },
+        "composure": {
+          "value": 62,
+          "diff": 1
+        },
+        "crossing": {
+          "value": 45,
+          "diff": 0
+        },
+        "curve": {
+          "value": 29,
+          "diff": 0
+        },
+        "def": {
+          "value": 76,
+          "diff": 3
+        },
+        "defensiveAwareness": {
+          "value": 75,
+          "diff": 4
+        },
+        "dri": {
+          "value": 53,
+          "diff": 1
+        },
+        "dribbling": {
+          "value": 34,
+          "diff": 0
+        },
+        "finishing": {
+          "value": 27,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 26,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 10,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 12,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 5,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 14,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 12,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 76,
+          "diff": 1
+        },
+        "interceptions": {
+          "value": 76,
+          "diff": 2
+        },
+        "longPassing": {
+          "value": 67,
+          "diff": 0
+        },
+        "longShots": {
+          "value": 41,
+          "diff": 0
+        },
+        "pac": {
+          "value": 60,
+          "diff": 3
+        },
+        "pas": {
+          "value": 60,
+          "diff": 2
+        },
+        "penalties": {
+          "value": 44,
+          "diff": 0
+        },
+        "phy": {
+          "value": 67,
+          "diff": 2
+        },
+        "positioning": {
+          "value": 31,
+          "diff": 10
+        },
+        "reactions": {
+          "value": 77,
+          "diff": 3
+        },
+        "sho": {
+          "value": 37,
+          "diff": 0
+        },
+        "shortPassing": {
+          "value": 74,
+          "diff": 3
+        },
+        "shotPower": {
+          "value": 59,
+          "diff": 0
+        },
+        "slidingTackle": {
+          "value": 75,
+          "diff": 2
+        },
+        "sprintSpeed": {
+          "value": 61,
+          "diff": 3
+        },
+        "standingTackle": {
+          "value": 76,
+          "diff": 1
+        },
+        "vision": {
+          "value": 60,
+          "diff": 2
+        },
+        "volleys": {
+          "value": 31,
+          "diff": 0
+        }
+      }
+    },
+    {
+      "id": 204838,
+      "rank": 2309,
+      "overallRating": 74,
+      "firstName": "Raúl",
+      "lastName": "Jiménez",
+      "commonName": null,
+      "birthdate": "05/05/1991 00:00",
+      "height": 188,
+      "skillMoves": 3,
+      "weakFootAbility": 3,
+      "preferredFoot": 1,
+      "leagueName": "Premier League",
+      "weight": 81,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p204838.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/204838.png?width=265",
+      "alternatePositions": null,
+      "playerAbilities": [
+        {
+          "id": "trait1_262144",
+          "label": "Elegante",
+          "description": "Pases/tiros con clase más precisos, animaciones elegantes contextuales",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/4q0QkDX0CLgDyBXWBO8lEn/7d727e85de9ee27d3aece799571aa982/Flair.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 83,
+        "label": "México",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/4SXza6FuE6T6dXI56PJZhS/4877162c8da581da419842f606fd2cad/f_83.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "25",
+        "shortLabel": "DC",
+        "label": "Delantero/a centro",
+        "positionType": {
+          "id": "attack",
+          "name": "Atacar"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 53,
+          "diff": -12
+        },
+        "agility": {
+          "value": 67,
+          "diff": 1
+        },
+        "jumping": {
+          "value": 81,
+          "diff": -2
+        },
+        "stamina": {
+          "value": 71,
+          "diff": 2
+        },
+        "strength": {
+          "value": 81,
+          "diff": -1
+        },
+        "aggression": {
+          "value": 79,
+          "diff": -1
+        },
+        "balance": {
+          "value": 66,
+          "diff": 2
+        },
+        "ballControl": {
+          "value": 73,
+          "diff": -3
+        },
+        "composure": {
+          "value": 76,
+          "diff": -2
+        },
+        "crossing": {
+          "value": 70,
+          "diff": -3
+        },
+        "curve": {
+          "value": 74,
+          "diff": -1
+        },
+        "def": {
+          "value": 45,
+          "diff": 0
+        },
+        "defensiveAwareness": {
+          "value": 43,
+          "diff": 0
+        },
+        "dri": {
+          "value": 73,
+          "diff": -1
+        },
+        "dribbling": {
+          "value": 75,
+          "diff": 0
+        },
+        "finishing": {
+          "value": 75,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 51,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 7,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 11,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 13,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 14,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 10,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 77,
+          "diff": 3
+        },
+        "interceptions": {
+          "value": 52,
+          "diff": -1
+        },
+        "longPassing": {
+          "value": 73,
+          "diff": -2
+        },
+        "longShots": {
+          "value": 70,
+          "diff": -1
+        },
+        "pac": {
+          "value": 54,
+          "diff": -12
+        },
+        "pas": {
+          "value": 73,
+          "diff": -2
+        },
+        "penalties": {
+          "value": 87,
+          "diff": -5
+        },
+        "phy": {
+          "value": 78,
+          "diff": 0
+        },
+        "positioning": {
+          "value": 74,
+          "diff": -4
+        },
+        "reactions": {
+          "value": 75,
+          "diff": -1
+        },
+        "sho": {
+          "value": 76,
+          "diff": -1
+        },
+        "shortPassing": {
+          "value": 77,
+          "diff": -1
+        },
+        "shotPower": {
+          "value": 82,
+          "diff": -2
+        },
+        "slidingTackle": {
+          "value": 30,
+          "diff": 0
+        },
+        "sprintSpeed": {
+          "value": 54,
+          "diff": -13
+        },
+        "standingTackle": {
+          "value": 38,
+          "diff": 0
+        },
+        "vision": {
+          "value": 74,
+          "diff": -2
+        },
+        "volleys": {
+          "value": 73,
+          "diff": -1
+        }
+      }
+    },
+    {
+      "id": 235883,
+      "rank": 2309,
+      "overallRating": 74,
+      "firstName": "Ryan",
+      "lastName": "Sessegnon",
+      "commonName": null,
+      "birthdate": "5/18/2000 12:00:00 AM",
+      "height": 178,
+      "skillMoves": 4,
+      "weakFootAbility": 3,
+      "preferredFoot": 2,
+      "leagueName": "Premier League",
+      "weight": 70,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p235883.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/235883.png?width=265",
+      "alternatePositions": null,
+      "playerAbilities": [
+        {
+          "id": "trait1_131072",
+          "label": "Veloz",
+          "description": "Más velocidad de sprint al regatear, menos errores al adelantar el balón",
+          "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/1aGsvwKyIFlRG1eoJSS0Ot/a4d3d661ff962795a632fe86439d2146/Rapid.png",
+          "type": {
+            "id": "playStyle",
+            "label": "Play Style"
+          }
+        }
+      ],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 14,
+        "label": "Inglaterra",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/4BVs0BAE16wJ4ihZS72xv8/5f2bab28b731170d875d4b0dd66b3664/f_14.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "7",
+        "shortLabel": "DFI",
+        "label": "Defensa izquierdo/a",
+        "positionType": {
+          "id": "defense",
+          "name": "Defensa"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 78,
+          "diff": -2
+        },
+        "agility": {
+          "value": 77,
+          "diff": 0
+        },
+        "jumping": {
+          "value": 70,
+          "diff": -1
+        },
+        "stamina": {
+          "value": 69,
+          "diff": -4
+        },
+        "strength": {
+          "value": 60,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 67,
+          "diff": 0
+        },
+        "balance": {
+          "value": 75,
+          "diff": 0
+        },
+        "ballControl": {
+          "value": 77,
+          "diff": 0
+        },
+        "composure": {
+          "value": 76,
+          "diff": 0
+        },
+        "crossing": {
+          "value": 75,
+          "diff": 0
+        },
+        "curve": {
+          "value": 74,
+          "diff": 0
+        },
+        "def": {
+          "value": 71,
+          "diff": 1
+        },
+        "defensiveAwareness": {
+          "value": 73,
+          "diff": 0
+        },
+        "dri": {
+          "value": 76,
+          "diff": 0
+        },
+        "dribbling": {
+          "value": 76,
+          "diff": 0
+        },
+        "finishing": {
+          "value": 66,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 31,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 6,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 11,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 7,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 8,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 7,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 56,
+          "diff": 0
+        },
+        "interceptions": {
+          "value": 71,
+          "diff": 0
+        },
+        "longPassing": {
+          "value": 65,
+          "diff": 0
+        },
+        "longShots": {
+          "value": 55,
+          "diff": 0
+        },
+        "pac": {
+          "value": 77,
+          "diff": -1
+        },
+        "pas": {
+          "value": 72,
+          "diff": 0
+        },
+        "penalties": {
+          "value": 61,
+          "diff": 0
+        },
+        "phy": {
+          "value": 64,
+          "diff": -1
+        },
+        "positioning": {
+          "value": 77,
+          "diff": 0
+        },
+        "reactions": {
+          "value": 73,
+          "diff": 0
+        },
+        "sho": {
+          "value": 64,
+          "diff": 0
+        },
+        "shortPassing": {
+          "value": 76,
+          "diff": 0
+        },
+        "shotPower": {
+          "value": 67,
+          "diff": 0
+        },
+        "slidingTackle": {
+          "value": 69,
+          "diff": 2
+        },
+        "sprintSpeed": {
+          "value": 77,
+          "diff": 0
+        },
+        "standingTackle": {
+          "value": 73,
+          "diff": 0
+        },
+        "vision": {
+          "value": 75,
+          "diff": 0
+        },
+        "volleys": {
+          "value": 55,
+          "diff": 0
+        }
+      }
+    },
+    {
+      "id": 241076,
+      "rank": 7904,
+      "overallRating": 67,
+      "firstName": "Steven",
+      "lastName": "Benda",
+      "commonName": null,
+      "birthdate": "10/01/1998 00:00",
+      "height": 193,
+      "skillMoves": 1,
+      "weakFootAbility": 3,
+      "preferredFoot": 1,
+      "leagueName": "Premier League",
+      "weight": 83,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p241076.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/241076.png?width=250",
+      "alternatePositions": null,
+      "playerAbilities": [],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 21,
+        "label": "Alemania",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/1A8XMv08PSnZMzpSS5oNIF/47eae37fd5132755d6e36382e6122b1c/f_21.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "0",
+        "shortLabel": "PO",
+        "label": "Portero/a",
+        "positionType": {
+          "id": "defense",
+          "name": "Defensa"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 36,
+          "diff": 0
+        },
+        "agility": {
+          "value": 30,
+          "diff": 0
+        },
+        "jumping": {
+          "value": 52,
+          "diff": 0
+        },
+        "stamina": {
+          "value": 30,
+          "diff": 0
+        },
+        "strength": {
+          "value": 53,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 19,
+          "diff": 0
+        },
+        "balance": {
+          "value": 33,
+          "diff": 0
+        },
+        "ballControl": {
+          "value": 19,
+          "diff": 0
+        },
+        "composure": {
+          "value": 26,
+          "diff": 0
+        },
+        "crossing": {
+          "value": 8,
+          "diff": 1
+        },
+        "curve": {
+          "value": 8,
+          "diff": 0
+        },
+        "def": {
+          "value": 37,
+          "diff": 0
+        },
+        "defensiveAwareness": {
+          "value": 6,
+          "diff": 0
+        },
+        "dri": {
+          "value": 70,
+          "diff": 0
+        },
+        "dribbling": {
+          "value": 13,
+          "diff": 0
+        },
+        "finishing": {
+          "value": 5,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 11,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 67,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 65,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 61,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 66,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 70,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 12,
+          "diff": 0
+        },
+        "interceptions": {
+          "value": 13,
+          "diff": 0
+        },
+        "longPassing": {
+          "value": 21,
+          "diff": 0
+        },
+        "longShots": {
+          "value": 12,
+          "diff": 0
+        },
+        "pac": {
+          "value": 67,
+          "diff": 0
+        },
+        "pas": {
+          "value": 61,
+          "diff": 0
+        },
+        "penalties": {
+          "value": 12,
+          "diff": 0
+        },
+        "phy": {
+          "value": 66,
+          "diff": 0
+        },
+        "positioning": {
+          "value": 4,
+          "diff": 0
+        },
+        "reactions": {
+          "value": 58,
+          "diff": 0
+        },
+        "sho": {
+          "value": 65,
+          "diff": 0
+        },
+        "shortPassing": {
+          "value": 26,
+          "diff": 0
+        },
+        "shotPower": {
+          "value": 46,
+          "diff": 0
+        },
+        "slidingTackle": {
+          "value": 11,
+          "diff": 0
+        },
+        "sprintSpeed": {
+          "value": 38,
+          "diff": 0
+        },
+        "standingTackle": {
+          "value": 9,
+          "diff": 0
+        },
+        "vision": {
+          "value": 26,
+          "diff": 0
+        },
+        "volleys": {
+          "value": 9,
+          "diff": 0
+        }
+      }
+    },
+    {
+      "id": 279008,
+      "rank": 15606,
+      "overallRating": 58,
+      "firstName": "Luc",
+      "lastName": "De Fougerolles",
+      "commonName": null,
+      "birthdate": "10/12/2005 00:00",
+      "height": 180,
+      "skillMoves": 2,
+      "weakFootAbility": 4,
+      "preferredFoot": 1,
+      "leagueName": "Premier League",
+      "weight": 76,
+      "avatarUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p279008.png?padding=0.7",
+      "shieldUrl": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-shields/es-mx/279008.png?width=250",
+      "alternatePositions": [
+        {
+          "id": "3",
+          "label": "Defensa derecho/a",
+          "shortLabel": "DFD"
+        },
+        {
+          "id": "7",
+          "label": "Defensa izquierdo/a",
+          "shortLabel": "DFI"
+        }
+      ],
+      "playerAbilities": [],
+      "gender": {
+        "id": 0,
+        "label": "Futbol masculino"
+      },
+      "nationality": {
+        "id": 70,
+        "label": "Canadá",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/47dRsBymvMr3YATwWSnlhV/672e421a8434492fca2ee84bd02f570e/f_70.png"
+      },
+      "team": {
+        "id": 144,
+        "label": "Fulham",
+        "imageUrl": "https://images.ctfassets.net/rs6bgs1g8dbr/3XyipfAo9C0YXRicMOahlo/3e4c1428d3cecd6727f44e19f3c40857/Fulham.png",
+        "isPopular": false
+      },
+      "position": {
+        "id": "5",
+        "shortLabel": "DFC",
+        "label": "Defensa central",
+        "positionType": {
+          "id": "defense",
+          "name": "Defensa"
+        }
+      },
+      "stats": {
+        "acceleration": {
+          "value": 65,
+          "diff": 0
+        },
+        "agility": {
+          "value": 57,
+          "diff": 0
+        },
+        "jumping": {
+          "value": 62,
+          "diff": 0
+        },
+        "stamina": {
+          "value": 63,
+          "diff": 0
+        },
+        "strength": {
+          "value": 57,
+          "diff": 0
+        },
+        "aggression": {
+          "value": 52,
+          "diff": 0
+        },
+        "balance": {
+          "value": 64,
+          "diff": 0
+        },
+        "ballControl": {
+          "value": 46,
+          "diff": 0
+        },
+        "composure": {
+          "value": 51,
+          "diff": 0
+        },
+        "crossing": {
+          "value": 33,
+          "diff": 0
+        },
+        "curve": {
+          "value": 28,
+          "diff": 0
+        },
+        "def": {
+          "value": 60,
+          "diff": 0
+        },
+        "defensiveAwareness": {
+          "value": 61,
+          "diff": 0
+        },
+        "dri": {
+          "value": 48,
+          "diff": 0
+        },
+        "dribbling": {
+          "value": 45,
+          "diff": 0
+        },
+        "finishing": {
+          "value": 27,
+          "diff": 0
+        },
+        "freeKickAccuracy": {
+          "value": 33,
+          "diff": 0
+        },
+        "gkDiving": {
+          "value": 6,
+          "diff": 0
+        },
+        "gkHandling": {
+          "value": 12,
+          "diff": 0
+        },
+        "gkKicking": {
+          "value": 5,
+          "diff": 0
+        },
+        "gkPositioning": {
+          "value": 8,
+          "diff": 0
+        },
+        "gkReflexes": {
+          "value": 14,
+          "diff": 0
+        },
+        "headingAccuracy": {
+          "value": 59,
+          "diff": 0
+        },
+        "interceptions": {
+          "value": 58,
+          "diff": 0
+        },
+        "longPassing": {
+          "value": 49,
+          "diff": 0
+        },
+        "longShots": {
+          "value": 27,
+          "diff": 0
+        },
+        "pac": {
+          "value": 64,
+          "diff": 0
+        },
+        "pas": {
+          "value": 44,
+          "diff": 0
+        },
+        "penalties": {
+          "value": 44,
+          "diff": 0
+        },
+        "phy": {
+          "value": 58,
+          "diff": 0
+        },
+        "positioning": {
+          "value": 29,
+          "diff": 0
+        },
+        "reactions": {
+          "value": 56,
+          "diff": 0
+        },
+        "sho": {
+          "value": 32,
+          "diff": 0
+        },
+        "shortPassing": {
+          "value": 56,
+          "diff": 0
+        },
+        "shotPower": {
+          "value": 46,
+          "diff": 0
+        },
+        "slidingTackle": {
+          "value": 58,
+          "diff": 0
+        },
+        "sprintSpeed": {
+          "value": 63,
+          "diff": 0
+        },
+        "standingTackle": {
+          "value": 60,
+          "diff": 0
+        },
+        "vision": {
+          "value": 37,
+          "diff": 0
+        },
+        "volleys": {
+          "value": 33,
+          "diff": 0
+        }
+      }
+    }
+  ],
+  "totalItems": 24
+}
