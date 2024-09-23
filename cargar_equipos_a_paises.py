@@ -11,22 +11,15 @@ try:
 except sqlite3.OperationalError:
     print("La columna 'team_country' ya existe.")
 
-# Paso 2: Lista de equipos ingleses
-equipos_ingleses = [
-    'arsenal', 'aston villa', 'afc bournemouth', 'brighton', 'manchester city',
-    'manchester united', 'liverpool', 'everton', 'newcastle united', 'nottingham forest',
-    'tottenham hotspur', 'southampton', 'brentford', 'leicester city', 'ipswich town',
-    'west ham', 'chelsea', 'fulham', 'crystal palace', 'wolves'
-]
-
-# Paso 3: Asignar 'inglaterra' a los equipos ingleses
-for equipo in equipos_ingleses:
+# Paso 2: Asignar 'Espana' a los equipos españoles
+equipos_espanoles = ['Atlético de Madrid', 'FC Barcelona']  # Lista de equipos españoles
+for equipo in equipos_espanoles:
     cursor.execute("""
         UPDATE players
-        SET team_country = 'Inglaterra'
+        SET team_country = 'Espana'
         WHERE LOWER(team_label) = ?
-    """, (equipo,))
-    print(f"Campo 'team_country' actualizado para el equipo {equipo.capitalize()}")
+    """, (equipo.lower(),))  # Cambia a minúsculas para la comparación
+    print(f"Campo 'team_country' actualizado para el equipo {equipo}")
 
 # Guardar los cambios y cerrar la conexión
 conn.commit()
