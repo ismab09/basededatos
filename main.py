@@ -82,14 +82,19 @@ def mostrar_equipos_pais(team_country):
 # Ruta para mostrar los jugadores de un equipo
 @app.route('/equipo/<team_id>')
 def mostrar_jugadores_equipo(team_id):
+    team_country = cursor.execute('SELECT DISTINCT team_country FROM players WHERE team_id = ?', (team_id,)).fetchone()[0]
     jugadores_html = generar_html_jugadores(team_id)
+
+    # Genera el HTML completo con el botón de regreso
     html = paginaEstilo(titulo="Plantel del Equipo", body=f"""
         <!-- Botón de regreso con flecha curva -->
-        <a href="/equipos/{team_id}" style="display: inline-block; padding: 10px 20px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px; font-family: Arial, sans-serif;">↩ Volver a la lista de equipos</a>
+        <a href="/equipos/{team_country}" style="display: inline-block; padding: 10px 20px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px; font-family: Arial, sans-serif;">↩ Volver a la lista de equipos</a>
         <br><br>
         {jugadores_html}
     """)
     return render_template_string(html)
+
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
