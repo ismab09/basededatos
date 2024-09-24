@@ -12,7 +12,7 @@ except sqlite3.OperationalError:
     print("La columna 'team_country' ya existe.")
 
 # Paso 2: Asignar 'Espana' a los equipos españoles
-equipos_espanoles = ['Atlético de Madrid', 'FC Barcelona']  # Lista de equipos españoles
+equipos_espanoles = ['Atlético de Madrid', 'FC Barcelona','Real Madrid','Athletic Club']  # Lista de equipos españoles
 for equipo in equipos_espanoles:
     cursor.execute("""
         UPDATE players
